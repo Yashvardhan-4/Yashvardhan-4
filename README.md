@@ -27,7 +27,7 @@
 
 <!-- 4. CATEGORIZED TECH STACK -->
 <p align="center">
-  <img src="./assets/tech_stack.svg" alt="Tech Stack Architecture" />
+  <img src="./assets/tech_stack_v2.svg" alt="Tech Stack Architecture" />
 </p>
 
 **Core Languages**<br>
@@ -57,7 +57,7 @@
 
 <!-- 5. REAL-TIME SYSTEM METRICS -->
 <p align="center">
-  <img src="./assets/telemetry.svg" alt="System Telemetry" />
+  <img src="./assets/telemetry_v2.svg" alt="System Telemetry" />
 </p>
 
 <p align="center">
@@ -76,7 +76,7 @@
 
 <!-- 7. ANIMATED FOOTER -->
 <p align="center">
-  <img src="./assets/access_logs.svg" alt="System Access Logs" />
+  <img src="./assets/access_logs_v2.svg" alt="System Access Logs" />
 </p>
 
 <p align="center">
