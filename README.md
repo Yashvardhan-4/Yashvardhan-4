@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://media.giphy.com/media/qgQUggCGvnP9a/giphy.gif" alt="Lofi Coding Animation" width="600" />
+<img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dDM1OXBiNW80bWNhbmRwOW5yc2t6Y25qMmU2cTZtOTlscjVxYzVpeCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/7JA8CIHsr0IfYPZpOE/giphy.gif" alt="Lofi Coding Animation" width="600" />
 
 <br><br>
 <!-- 1. HEADER ANIMATION -->
@@ -106,3 +106,8 @@ user@system:~$ cat about_me.txt
 </p>
 
 </div>
+<div align="center">
+
+<img src="[https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dDM1OXBiNW80bWNhbmRwOW5yc2t6Y25qMmU2cTZtOTlscjVxYzVpeCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/7JA8CIHsr0IfYPZpOE/giphy.gif" alt="Lofi Coding Animation](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWU4bWpuOTE5a2gxcThuMnRlcGg3bGN3b2pqM3hhZXBoc2ozc3VociZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Rpl1sod1vCXK0L2SUN/giphy.gif)" width="600" />
+
+<br><br>
