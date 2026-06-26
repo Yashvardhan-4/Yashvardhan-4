@@ -1,5 +1,8 @@
 <div align="center">
 
+<img src="https://media.giphy.com/media/qgQUggCGvnP9a/giphy.gif" alt="Lofi Coding Animation" width="600" />
+
+<br><br>
 <!-- 1. HEADER ANIMATION -->
 <a href="https://github.com/Yashvardhan-4">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00E5FF&center=true&vCenter=true&random=false&width=700&lines=SYSTEM+ACCESS%3A+ONLINE;DIGITAL+ARCHITECT+%26+DEVELOPER;ORCHESTRATING+CODE+%26+ADVANCED+AI" alt="Typing SVG" />
