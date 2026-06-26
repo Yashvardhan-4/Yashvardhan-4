@@ -1,15 +1,15 @@
 <div align="center">
 
 <!-- 1. HEADER ANIMATION -->
-<a href="https://github.com/[YOUR_GITHUB_USERNAME]">
+<a href="https://github.com/Yashvardhan-4">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00E5FF&center=true&vCenter=true&random=false&width=700&lines=SYSTEM+ACCESS%3A+ONLINE;DIGITAL+ARCHITECT+%26+DEVELOPER;ORCHESTRATING+CODE+%26+ADVANCED+AI" alt="Typing SVG" />
 </a>
 
 <br><br>
 
 <!-- 2. TROPHY RACK -->
-<a href="https://github.com/[YOUR_GITHUB_USERNAME]">
-  <img src="https://github-profile-trophy.vercel.app/?username=[YOUR_GITHUB_USERNAME]&theme=dracula&no-frame=true&no-bg=true&margin-w=15" alt="Trophy Rack" />
+<a href="https://github.com/Yashvardhan-4">
+  <img src="https://github-profile-trophy.vercel.app/?username=Yashvardhan-4&theme=dracula&no-frame=true&no-bg=true&margin-w=15" alt="Trophy Rack" />
 </a>
 
 <br><br>
@@ -77,15 +77,15 @@ user@system:~$ cat about_me.txt
 ### 📊 SYSTEM TELEMETRY
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=[YOUR_GITHUB_USERNAME]&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=00000000" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR_GITHUB_USERNAME]&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Yashvardhan-4&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=00000000" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yashvardhan-4&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Top Languages" width="48%" />
 </p>
 
 <br>
 
 <!-- 6. CONTRIBUTION METRICS -->
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=[YOUR_GITHUB_USERNAME]&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Yashvardhan-4&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub Streak" />
 </p>
 
 <br>
@@ -94,17 +94,17 @@ user@system:~$ cat about_me.txt
 ### 🐍 SYSTEM ACCESS LOGS
 
 <p align="center">
-  <a href="https://github.com/[YOUR_GITHUB_USERNAME]">
+  <a href="https://github.com/Yashvardhan-4">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/[YOUR_GITHUB_USERNAME]/[YOUR_GITHUB_USERNAME]/output/github-contribution-grid-snake-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/[YOUR_GITHUB_USERNAME]/[YOUR_GITHUB_USERNAME]/output/github-contribution-grid-snake.svg">
-      <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/[YOUR_GITHUB_USERNAME]/[YOUR_GITHUB_USERNAME]/output/github-contribution-grid-snake.svg">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yashvardhan-4/Yashvardhan-4/output/github-contribution-grid-snake-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Yashvardhan-4/Yashvardhan-4/output/github-contribution-grid-snake.svg">
+      <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Yashvardhan-4/Yashvardhan-4/output/github-contribution-grid-snake.svg">
     </picture>
   </a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=[YOUR_GITHUB_USERNAME]&label=SYSTEM+ACCESS+COUNT&color=00e5ff&style=for-the-badge" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Yashvardhan-4&label=SYSTEM+ACCESS+COUNT&color=00e5ff&style=for-the-badge" alt="Profile Views" />
 </p>
 
 </div>
