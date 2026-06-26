@@ -6,7 +6,7 @@
     <img src="https://media.giphy.com/media/7JA8CIHsr0IfYPZpOE/giphy.gif" alt="Lofi Coding Animation" width="180" height="180" style="vertical-align: middle; background: transparent; margin-right: 15px;" />
   </a>
   <a href="https://github.com/Yashvardhan-4">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00E5FF&center=false&vCenter=true&random=false&width=550&background=00000000&lines=YASHVARDHAN+BORUDE;SYSTEM+ACCESS%3A+ONLINE;DIGITAL+ARCHITECT+%26+DEVELOPER;ORCHESTRATING+CODE+%26+ADVANCED+AI" alt="Typing SVG" style="vertical-align: middle; background: transparent;" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00E5FF&center=true&vCenter=true&random=false&width=550&background=00000000&lines=YASHVARDHAN+BORUDE;SYSTEM+ACCESS%3A+ONLINE;DIGITAL+ARCHITECT+%26+DEVELOPER;ORCHESTRATING+CODE+%26+ADVANCED+AI" alt="Typing SVG" style="vertical-align: middle; background: transparent;" />
   </a>
 </p>
 
