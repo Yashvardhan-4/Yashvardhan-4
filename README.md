@@ -46,7 +46,9 @@ user@system:~$ cat about_me.txt
 <br>
 
 <!-- 4. CATEGORIZED TECH STACK -->
-### ⚙️ TECH STACK ARCHITECTURE
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00E5FF&center=true&vCenter=true&width=500&background=00000000&lines=TECH+STACK+ARCHITECTURE" alt="Tech Stack Architecture" />
+</p>
 
 **Core Languages**<br>
 ![C++](https://img.shields.io/badge/C++-000000?style=for-the-badge&logo=c%2B%2B&logoColor=00E5FF)
@@ -74,7 +76,9 @@ user@system:~$ cat about_me.txt
 <br><br>
 
 <!-- 5. REAL-TIME SYSTEM METRICS -->
-### 📊 SYSTEM TELEMETRY
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00E5FF&center=true&vCenter=true&width=500&background=00000000&lines=SYSTEM+TELEMETRY" alt="System Telemetry" />
+</p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Yashvardhan-4&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=00000000" alt="GitHub Stats" width="48%" />
@@ -91,7 +95,9 @@ user@system:~$ cat about_me.txt
 <br>
 
 <!-- 7. ANIMATED FOOTER -->
-### 🐍 SYSTEM ACCESS LOGS
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00E5FF&center=true&vCenter=true&width=500&background=00000000&lines=SYSTEM+ACCESS+LOGS" alt="System Access Logs" />
+</p>
 
 <p align="center">
   <a href="https://github.com/Yashvardhan-4">
