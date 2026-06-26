@@ -1,3 +1,13 @@
+<div align="center">
+  <!-- Animated Typing Intro -->
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=700&lines=GREETINGS+HUMAN;+I'M+YASHVARDHAN;+BUILDING+ALGORITHMS+%26+CLEAN+CODE;+AIMING+FOR+RED+CODER+🔴" alt="Typing SVG" />
+
+  <p align="center">
+    <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=dracula&column=7&margin-w=15" alt="github profile trophy" /></a>
+  </p>
+</div>
+
+---
 # 💫 About Me:
 Yashvardhan Borude<br>Developer | AI Technical Director<br><br>I don't just write code; I build digital experiences. Balancing technical rigor with a sharp eye for modern aesthetics, I design scalable software backends and deploy advanced AI models to create cinematic, high-production assets. Whether optimizing a complex database structure or directing fluid automation pipelines, my goal is always absolute precision and striking visual execution.
 
