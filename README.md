@@ -2,7 +2,7 @@
 
 <!-- 1. HEADER ANIMATION & AVATAR -->
 <p align="center">
-  <img src="https://media.giphy.com/media/qgQUggCGvnP9a/giphy.gif" alt="Lofi Coding Animation" width="180" height="180" style="border-radius: 50%; object-fit: cover; margin-right: 15px; vertical-align: middle;" />
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGwwZTB6bnptN3VjOGM0eWg3bTVrbWFnYWljZ2hic2VobnRmN2hiciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/7JA8CIHsr0IfYPZpOE/giphy.gif" alt="Lofi Coding Animation" width="180" height="180" style="border-radius: 50%; object-fit: cover; margin-right: 15px; vertical-align: middle;" />
   <a href="https://github.com/Yashvardhan-4">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00E5FF&center=false&vCenter=true&random=false&width=550&lines=YASHVARDHAN+BORUDE;SYSTEM+ACCESS%3A+ONLINE;DIGITAL+ARCHITECT+%26+DEVELOPER;ORCHESTRATING+CODE+%26+ADVANCED+AI" alt="Typing SVG" style="vertical-align: middle;" />
   </a>
@@ -108,7 +108,7 @@ user@system:~$ cat about_me.txt
 <br>
 <!-- 8. FINAL GIF -->
 <p align="center">
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWU4bWpuOTE5a2gxcThuMnRlcGg3bGN3b2pqM3hhZXBoc2ozc3VociZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Rpl1sod1vCXK0L2SUN/giphy.gif" alt="Aesthetic Ending GIF" width="800" style="border-radius: 15px;" />
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWU4bWpuOTE5a2gxcThuMnRlcGg3bGN3b2pqM3hhZXBoc2ozc3VociZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Rpl1sod1vCXK0L2SUN/giphy.gif" alt="Aesthetic Ending GIF" width="400" style="border-radius: 15px;" />
 </p>
 
 </div>
