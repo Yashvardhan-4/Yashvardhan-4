@@ -1,19 +1,110 @@
 <div align="center">
-  <!-- Animated Creator-Engineer Typing Intro -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=750&lines=YASHVARDHAN+BORUDE;+DIGITAL+ARCHITECT+%26+ENGINEER;+BUILDING+WITH+CODE+%26+AI;+DARK+MODE+EVERYTHING+🌌" alt="Typing SVG" />
 
-  <p align="center">
-    <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Yashvardhan-4&theme=dracula&column=7&margin-w=15" alt="github profile trophy" /></a>
-  </p>
+<!-- 1. HEADER ANIMATION -->
+<a href="https://github.com/[YOUR_GITHUB_USERNAME]">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00E5FF&center=true&vCenter=true&random=false&width=700&lines=SYSTEM+ACCESS%3A+ONLINE;DIGITAL+ARCHITECT+%26+DEVELOPER;ORCHESTRATING+CODE+%26+ADVANCED+AI" alt="Typing SVG" />
+</a>
+
+<br><br>
+
+<!-- 2. TROPHY RACK -->
+<a href="https://github.com/[YOUR_GITHUB_USERNAME]">
+  <img src="https://github-profile-trophy.vercel.app/?username=[YOUR_GITHUB_USERNAME]&theme=dracula&no-frame=true&no-bg=true&margin-w=15" alt="Trophy Rack" />
+</a>
+
+<br><br>
+
+<!-- 3. CUSTOM ABOUT ME BLOCK -->
 </div>
 
----
-
-## 🔮 About Me
-
 ```text
-========================================================================
-⚡ Role: Developer | AI Technical Director
-🛠️ Focus: Scalable Software, Database Architecture & High-End AI Assets
-🌌 Style: Absolute Precision, Deep Logic, and Premium Visual Aesthetics
-========================================================================
+user@system:~$ cat about_me.txt
+
+================================================================================
+  YASHVARDHAN SHASHIKANT BORUDE
+  Competitive Programmer | Full Stack Developer
+  B.Tech Computer Engineering (2028) | PCCOE Pune | CGPA: 8.86
+================================================================================
+
+  > PHILOSOPHY
+  Merging absolute technical database/backend rigor with a sharp eye for 
+  modern cinematic aesthetics and AI-driven workflow assets. Relentless 
+  pursuit of clean, scalable, and optimized systems.
+
+  > CURRENT DIRECTIVE
+  Architecting full-stack solutions and rural e-commerce platforms with 
+  Supabase, WebGL, and modern JS. Expanding algorithmic dominance across 
+  CodeChef (2-Star), Codeforces, LeetCode (213+), and HackerRank (5-Star).
+  
+  > COMPETITIVE EDGE
+  500+ Algorithmic Problems Solved | Graph Theory | DP | Greedy Algorithms
+================================================================================
+```
+
+<div align="center">
+
+<br>
+
+<!-- 4. CATEGORIZED TECH STACK -->
+### ⚙️ TECH STACK ARCHITECTURE
+
+**Core Languages**<br>
+![C++](https://img.shields.io/badge/C++-000000?style=for-the-badge&logo=c%2B%2B&logoColor=00E5FF)
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=00E5FF)
+![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=00E5FF)
+![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=00E5FF)
+![CSS3](https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=00E5FF)
+![SQL](https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=postgresql&logoColor=00E5FF)
+
+**Frameworks & Frontend**<br>
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=00E5FF)
+![Node.js](https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=00E5FF)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-000000?style=for-the-badge&logo=tailwind-css&logoColor=00E5FF)
+
+**Databases & Cloud Systems**<br>
+![Supabase](https://img.shields.io/badge/Supabase-000000?style=for-the-badge&logo=supabase&logoColor=00E5FF)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=00E5FF)
+![MongoDB](https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=00E5FF)
+
+**Data Science/Design Tools**<br>
+![Pandas](https://img.shields.io/badge/Pandas-000000?style=for-the-badge&logo=pandas&logoColor=00E5FF)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-000000?style=for-the-badge&logo=scikit-learn&logoColor=00E5FF)
+![Figma](https://img.shields.io/badge/Figma-000000?style=for-the-badge&logo=figma&logoColor=00E5FF)
+
+<br><br>
+
+<!-- 5. REAL-TIME SYSTEM METRICS -->
+### 📊 SYSTEM TELEMETRY
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=[YOUR_GITHUB_USERNAME]&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=00000000" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR_GITHUB_USERNAME]&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Top Languages" width="48%" />
+</p>
+
+<br>
+
+<!-- 6. CONTRIBUTION METRICS -->
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=[YOUR_GITHUB_USERNAME]&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub Streak" />
+</p>
+
+<br>
+
+<!-- 7. ANIMATED FOOTER -->
+### 🐍 SYSTEM ACCESS LOGS
+
+<p align="center">
+  <a href="https://github.com/[YOUR_GITHUB_USERNAME]">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/[YOUR_GITHUB_USERNAME]/[YOUR_GITHUB_USERNAME]/output/github-contribution-grid-snake-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/[YOUR_GITHUB_USERNAME]/[YOUR_GITHUB_USERNAME]/output/github-contribution-grid-snake.svg">
+      <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/[YOUR_GITHUB_USERNAME]/[YOUR_GITHUB_USERNAME]/output/github-contribution-grid-snake.svg">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=[YOUR_GITHUB_USERNAME]&label=SYSTEM+ACCESS+COUNT&color=00e5ff&style=for-the-badge" alt="Profile Views" />
+</p>
+
+</div>
