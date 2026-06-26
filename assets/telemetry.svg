@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 50" width="500" height="50">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&amp;display=swap');
+      .title { font-family: 'Fira Code', monospace; fill: #00E5FF; font-size: 24px; font-weight: 700; text-shadow: 0 0 8px rgba(0, 229, 255, 0.5); }
+      .bar { fill: #00E5FF; animation: bounce 1s ease-in-out infinite alternate; }
+      .b1 { animation-delay: 0s; } .b2 { animation-delay: 0.2s; } .b3 { animation-delay: 0.4s; }
+      @keyframes bounce { 0% { height: 5px; y: 35; } 100% { height: 25px; y: 15; } }
+    </style>
+  </defs>
+  <g transform="translate(10, 0)">
+    <rect class="bar b1" x="0" y="15" width="6" height="25" rx="2" />
+    <rect class="bar b2" x="12" y="25" width="6" height="15" rx="2" />
+    <rect class="bar b3" x="24" y="10" width="6" height="30" rx="2" />
+  </g>
+  <text class="title" x="60" y="33">SYSTEM TELEMETRY</text>
+</svg>

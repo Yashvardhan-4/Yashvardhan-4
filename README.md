@@ -17,29 +17,9 @@
 <!-- 3. CUSTOM ABOUT ME BLOCK -->
 </div>
 
-```text
-user@system:~$ cat about_me.txt
-
-================================================================================
-  YASHVARDHAN SHASHIKANT BORUDE
-  Competitive Programmer | Full Stack Developer
-  B.Tech Computer Engineering (2028) | PCCOE Pune | CGPA: 8.86
-================================================================================
-
-  > PHILOSOPHY
-  Merging absolute technical database/backend rigor with a sharp eye for 
-  modern cinematic aesthetics and AI-driven workflow assets. Relentless 
-  pursuit of clean, scalable, and optimized systems.
-
-  > CURRENT DIRECTIVE
-  Architecting full-stack solutions and rural e-commerce platforms with 
-  Supabase, WebGL, and modern JS. Expanding algorithmic dominance across 
-  CodeChef (2-Star), Codeforces, LeetCode (213+), and HackerRank (5-Star).
-  
-  > COMPETITIVE EDGE
-  500+ Algorithmic Problems Solved | Graph Theory | DP | Greedy Algorithms
-================================================================================
-```
+<p align="center">
+  <img src="./assets/terminal.svg" alt="Terminal About Me" />
+</p>
 
 <div align="center">
 
@@ -47,7 +27,7 @@ user@system:~$ cat about_me.txt
 
 <!-- 4. CATEGORIZED TECH STACK -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00E5FF&center=true&vCenter=true&width=500&background=00000000&lines=TECH+STACK+ARCHITECTURE" alt="Tech Stack Architecture" />
+  <img src="./assets/tech_stack.svg" alt="Tech Stack Architecture" />
 </p>
 
 **Core Languages**<br>
@@ -77,7 +57,7 @@ user@system:~$ cat about_me.txt
 
 <!-- 5. REAL-TIME SYSTEM METRICS -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00E5FF&center=true&vCenter=true&width=500&background=00000000&lines=SYSTEM+TELEMETRY" alt="System Telemetry" />
+  <img src="./assets/telemetry.svg" alt="System Telemetry" />
 </p>
 
 <p align="center">
@@ -96,7 +76,7 @@ user@system:~$ cat about_me.txt
 
 <!-- 7. ANIMATED FOOTER -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00E5FF&center=true&vCenter=true&width=500&background=00000000&lines=SYSTEM+ACCESS+LOGS" alt="System Access Logs" />
+  <img src="./assets/access_logs.svg" alt="System Access Logs" />
 </p>
 
 <p align="center">

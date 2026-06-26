@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 50" width="500" height="50">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&amp;display=swap');
+      .title { font-family: 'Fira Code', monospace; fill: #00E5FF; font-size: 24px; font-weight: 700; text-shadow: 0 0 8px rgba(0, 229, 255, 0.5); }
+      .pulse { fill: none; stroke: #00E5FF; stroke-width: 2; animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite; transform-origin: 25px 25px;}
+      .dot { fill: #00E5FF; }
+      @keyframes ping { 75%, 100% { transform: scale(2); opacity: 0; } }
+    </style>
+  </defs>
+  <g transform="translate(0, 0)">
+    <circle class="pulse" cx="25" cy="25" r="8" />
+    <circle class="dot" cx="25" cy="25" r="6" />
+  </g>
+  <text class="title" x="60" y="33">SYSTEM ACCESS LOGS</text>
+</svg>
