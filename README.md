@@ -1,135 +1,102 @@
 <div align="center">
 
-<img src="./assets/hero_liquid_chrome.webp" alt="Yashvardhan — Liquid Chrome Fluid Dynamics" width="100%" />
-
-</div>
-
-<br />
-
-```
-IDENTITY        Yashvardhan Borude
-ROLE            Creative Technologist × Software Engineer
-FOCUS           Interactive Graphics · Graph Intelligence · Spatial Web Systems
-LOCATION        Mumbai, Maharashtra, India  [19.0760° N, 72.8777° E]
-STATUS          Building & Researching Production Software
-```
-
----
-
-### PROLOGUE
-
-I build software where technical rigor meets visual craft. My work bridges reactive frontend architectures, spatial 3D interfaces, and high-velocity data systems—treating the browser as an instrument for real-time computing and visceral interaction.
-
----
-
-### SELECTED WORKS
-
-<br />
-
-#### 01 // TRACE-X · INSTITUTIONAL FINANCIAL CRIME OS
-
-<div align="center">
-  <a href="https://frontend-chi-pied-40.vercel.app" target="_blank">
-    <img src="./assets/tracex_graph_core.webp" alt="TRACE-X Dynamic Forensic Node Graph" width="100%" />
+<!-- 1. HEADER ANIMATION & AVATAR -->
+<p align="center">
+  <a href="https://github.com/Yashvardhan-4">
+    <img src="https://media.giphy.com/media/7JA8CIHsr0IfYPZpOE/giphy.gif" alt="Lofi Coding Animation" width="180" height="180" style="vertical-align: middle; background: transparent; margin-right: 15px;" />
   </a>
-</div>
-
-```
-STACK           TypeScript · Next.js · React Flow · FastAPI · Network Clustering
-DEPLOYMENT      Production Live on Vercel
-REPOSITORY      github.com/Yashvardhan-4/TRACE-X
-DEMO            frontend-chi-pied-40.vercel.app
-```
-
-An institutional intelligence operating system designed for anti-financial crime units and forensic investigators. Detects synthetic identity rings, transaction smurfing, and insider risk across complex financial networks using interactive force-directed graph clustering and sub-second anomaly scoring.
-
-* **Graph Intelligence:** Interactive canvas rendering dense financial subgraphs with real-time risk clustering.
-* **Forensic Analytics:** Automated identification of circular transaction paths and multi-hop entity hops.
-* **Architecture:** Decoupled FastAPI analytical backend powering a reactive Next.js presentation tier.
-
-<br />
-
----
-
-#### 02 // SHIVKUSH HI-TECH NURSERY (SNMS)
-
-<div align="center">
-  <a href="https://github.com/Yashvardhan-4/SNMS" target="_blank">
-    <img src="./assets/snms_spatial_botanical.webp" alt="SNMS Spatial Botanical Engine" width="100%" />
+  <a href="https://github.com/Yashvardhan-4">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00E5FF&center=true&vCenter=true&random=false&width=550&height=180&background=00000000&lines=YASHVARDHAN+BORUDE;SYSTEM+ACCESS%3A+ONLINE;DIGITAL+ARCHITECT+%26+DEVELOPER;ORCHESTRATING+CODE+%26+ADVANCED+AI" alt="Typing SVG" style="vertical-align: middle; background: transparent;" />
   </a>
+</p>
+
+<br><br>
+
+
+
+<!-- 3. CUSTOM ABOUT ME BLOCK -->
 </div>
 
-```
-STACK           Next.js App Router · Three.js · Supabase PostgreSQL · Tailwind CSS
-SECURITY        Row Level Security (RLS) · Dual-Language Marathi / English PWA
-REPOSITORY      github.com/Yashvardhan-4/SNMS
-```
-
-Commercial-grade horticulture management system and client-facing digital platform engineered for high-volume contract farming and wholesale agricultural commerce.
-
-* **Spatial 3D Specimen Viewer:** Integrated Three.js model viewport allowing clients to inspect plant structural morphology and canopy density prior to contract reservation.
-* **Dual-Language PWA:** Bilingual interface built in Marathi and English with offline-first local state persistence for rural agricultural operators.
-* **Enterprise Security:** Multi-tenant Supabase PostgreSQL architecture protected by strict Row Level Security policies.
-
-<br />
-
----
-
-#### 03 // PRALAYVEER · SMART CRISIS GUIDANCE OS
+<p align="center">
+  <img src="./assets/terminal.svg" alt="Terminal About Me" />
+</p>
 
 <div align="center">
-  <a href="https://github.com/Yashvardhan-4/PralayVeer" target="_blank">
-    <img src="./assets/pralayveer_crisis_radar.webp" alt="PralayVeer Emergency Crisis Radar" width="100%" />
+
+<br>
+
+<!-- 4. CATEGORIZED TECH STACK -->
+<p align="center">
+  <img src="./assets/tech_stack_v2.svg" alt="Tech Stack Architecture" />
+</p>
+
+**Core Languages**<br>
+![C++](https://img.shields.io/badge/C++-000000?style=for-the-badge&logo=c%2B%2B&logoColor=00E5FF)
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=00E5FF)
+![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=00E5FF)
+![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=00E5FF)
+![CSS3](https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=00E5FF)
+![SQL](https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=postgresql&logoColor=00E5FF)
+
+**Frameworks & Frontend**<br>
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=00E5FF)
+![Node.js](https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=00E5FF)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-000000?style=for-the-badge&logo=tailwind-css&logoColor=00E5FF)
+
+**Databases & Cloud Systems**<br>
+![Supabase](https://img.shields.io/badge/Supabase-000000?style=for-the-badge&logo=supabase&logoColor=00E5FF)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=00E5FF)
+![MongoDB](https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=00E5FF)
+
+**Data Science/Design Tools**<br>
+![Pandas](https://img.shields.io/badge/Pandas-000000?style=for-the-badge&logo=pandas&logoColor=00E5FF)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-000000?style=for-the-badge&logo=scikit-learn&logoColor=00E5FF)
+![Figma](https://img.shields.io/badge/Figma-000000?style=for-the-badge&logo=figma&logoColor=00E5FF)
+
+<br><br>
+
+<!-- 5. REAL-TIME SYSTEM METRICS -->
+<p align="center">
+  <img src="./assets/telemetry_v2.svg" alt="System Telemetry" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Yashvardhan-4&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=00000000" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yashvardhan-4&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Top Languages" width="48%" />
+</p>
+
+<br>
+
+<!-- 6. CONTRIBUTION METRICS -->
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Yashvardhan-4&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub Streak" />
+</p>
+
+<br>
+
+<!-- 7. ANIMATED FOOTER -->
+<p align="center">
+  <img src="./assets/access_logs_v2.svg" alt="System Access Logs" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/Yashvardhan-4">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yashvardhan-4/Yashvardhan-4/output/github-contribution-grid-snake-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Yashvardhan-4/Yashvardhan-4/output/github-contribution-grid-snake.svg">
+      <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Yashvardhan-4/Yashvardhan-4/output/github-contribution-grid-snake.svg">
+    </picture>
   </a>
-</div>
+</p>
 
-```
-EVENT           Smart India Hackathon (SIH) · 24-Hour Continuous Engineering Sprint
-STACK           Modern JavaScript · Leaflet Geospatial Engine · GeoJSON Pipeline
-REPOSITORY      github.com/Yashvardhan-4/PralayVeer
-```
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Yashvardhan-4&label=SYSTEM+ACCESS+COUNT&color=00e5ff&style=for-the-badge" alt="Profile Views" />
+</p>
 
-Emergency crisis management and citizen evacuation guidance system engineered during a 24-hour hackathon sprint. Designed for zero-connectivity disaster zones, providing real-time threat vector mapping and offline geospatial triangulation for first responders.
+<br>
+<!-- 8. FINAL GIF -->
+<p align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWU4bWpuOTE5a2gxcThuMnRlcGg3bGN3b2pqM3hhZXBoc2ozc3VociZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Rpl1sod1vCXK0L2SUN/giphy.gif" alt="Aesthetic Ending GIF" width="400" style="border-radius: 15px;" />
+</p>
 
-<br />
-
----
-
-### TECHNICAL ARSENAL
-
-Organized by engineering discipline and active technical application:
-
-```
-SPATIAL & INTERACTIVE     WebGL · Three.js · GLSL Shaders · React Flow · Kinetic Physics
-FRONTEND ARCHITECTURE     TypeScript · Next.js (App Router) · React 19 · Tailwind CSS
-SYSTEMS & BACKEND         Python · FastAPI · Node.js · Supabase PostgreSQL (RLS) · REST
-TOOLS & WORKFLOWS         Git · Docker · Linux · Postman · Chrome DevTools Profiling
-```
-
----
-
-### VERIFIED ACTIVITY
-
-<div align="center">
-  <img src="./assets/activity_kinetic_stream.webp" alt="Verified Annual Contribution Spectrum" width="100%" />
-</div>
-
-```
-METRIC          174 Verified Annual Contributions
-REGISTRY        Public Open Source & Core Infrastructure Commits
-CADENCE         Continuous Building & Rapid Prototyping
-```
-
----
-
-### CONNECT
-
-```
-DIRECT          yashvardhanborude7@gmail.com
-GITHUB          github.com/Yashvardhan-4
-LINKEDIN        linkedin.com/in/yashvardhan-borude
-```
-
-<div align="center">
-<sub>Engineered with precision & craft · Mumbai, India</sub>
 </div>

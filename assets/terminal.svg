@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 420" width="100%" height="420">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&amp;display=swap');
+      .bg { fill: rgba(10, 10, 15, 0.85); stroke: #00E5FF; stroke-width: 1; rx: 8; ry: 8; }
+      .top-bar { fill: rgba(20, 20, 25, 0.95); }
+      .text { font-family: 'Fira Code', monospace; fill: #c9d1d9; font-size: 15px; }
+      .prompt { fill: #00E5FF; font-weight: bold; }
+      .cmd { fill: #ff5f56; }
+      .highlight { fill: #ffbd2e; font-weight: bold; }
+      .dim { fill: #6e7681; }
+      .cursor { fill: #00E5FF; animation: blink 1s step-end infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .typing { overflow: hidden; white-space: nowrap; animation: typing 2s steps(40, end); }
+      @keyframes typing { from { width: 0 } to { width: 100% } }
+    </style>
+  </defs>
+  <rect class="bg" width="100%" height="100%" />
+  <path class="top-bar" d="M 0 8 Q 0 0 8 0 L 842 0 Q 850 0 850 8 L 850 30 L 0 30 Z" />
+  
+  <circle fill="#ff5f56" cx="20" cy="15" r="6" />
+  <circle fill="#ffbd2e" cx="40" cy="15" r="6" />
+  <circle fill="#27c93f" cx="60" cy="15" r="6" />
+  <text class="text dim" x="425" y="20" text-anchor="middle" font-size="12px">bash - yashvardhan@sys - 80x24</text>
+  
+  <g transform="translate(25, 65)">
+    <text class="text" y="0">
+      <tspan class="prompt">yashvardhan@sys</tspan><tspan class="dim">:</tspan><tspan class="cmd">~</tspan><tspan class="dim">$ </tspan><tspan>cat about_me.txt</tspan>
+    </text>
+    
+    <text class="text dim" y="35">=================================================================================</text>
+    <text class="text highlight" y="65">  YASHVARDHAN SHASHIKANT BORUDE</text>
+    <text class="text" y="90">  Competitive Programmer <tspan class="dim">|</tspan> Full Stack Developer</text>
+    <text class="text" y="115">  B.Tech Computer Engineering (2028) <tspan class="dim">|</tspan> PCCOE Pune <tspan class="dim">|</tspan> CGPA: 8.86</text>
+    <text class="text dim" y="145">=================================================================================</text>
+    
+    <text class="text prompt" y="190">  &gt; PHILOSOPHY</text>
+    <text class="text" y="215">  Merging absolute technical backend rigor with a sharp eye for</text>
+    <text class="text" y="240">  modern cinematic aesthetics and AI-driven workflow assets.</text>
+    
+    <text class="text prompt" y="285">  &gt; CURRENT DIRECTIVE</text>
+    <text class="text" y="310">  Architecting full-stack solutions and rural e-commerce platforms.</text>
+    <text class="text" y="335">  Expanding algorithmic dominance across CodeChef, Codeforces, &amp; LeetCode.</text>
+    
+    <text class="text" y="385">
+      <tspan class="prompt">yashvardhan@sys</tspan><tspan class="dim">:</tspan><tspan class="cmd">~</tspan><tspan class="dim">$ </tspan><tspan class="cursor">█</tspan>
+    </text>
+  </g>
+</svg>
