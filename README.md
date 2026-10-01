@@ -1,27 +1,22 @@
 <div align="center">
 
-<!-- HERO BANNER -->
+<!-- HERO & COMMAND BAR -->
 <a href="https://linkedin.com/in/yashvardhan-borude-8640a6319/">
-  <img src="./assets/hero_editorial.svg" alt="Yashvardhan Borude - Full Stack Software Engineer &amp; Algorithmic Specialist" width="100%" />
+  <img src="./assets/hero_linear.svg" alt="Yashvardhan Borude - Full Stack Software Engineer &amp; Algorithmic Specialist" width="100%" />
 </a>
 
-<br>
-
-<!-- EDITORIAL NAVIGATION / VERIFIED PROFILES -->
-<p align="center">
-  <a href="https://linkedin.com/in/yashvardhan-borude-8640a6319/"><b>LinkedIn</b></a> &nbsp;•&nbsp;
-  <a href="https://leetcode.com/u/yashvardhan_4/"><b>LeetCode</b></a> &nbsp;•&nbsp;
-  <a href="https://codeforces.com/profile/yashvardhanborude7"><b>Codeforces</b></a> &nbsp;•&nbsp;
-  <a href="https://www.codechef.com/users/cheer_swan_02"><b>CodeChef</b></a> &nbsp;•&nbsp;
-  <a href="https://www.hackerrank.com/profile/yashvardhanboru9"><b>HackerRank</b></a> &nbsp;•&nbsp;
-  <a href="./NewResume.pdf"><b>Curriculum Vitae</b></a>
-</p>
-
-<br>
+<br><br>
 
 <!-- PROOF-OF-WORK METRIC LEDGER -->
 <a href="https://github.com/Yashvardhan-4">
   <img src="./assets/metrics_ledger.svg" alt="Core Metric Ledger" width="100%" />
+</a>
+
+<br><br>
+
+<!-- FLAGSHIP UI BENTO SHOWCASE (VISUAL UI CONCEPTS) -->
+<a href="https://github.com/Yashvardhan-4">
+  <img src="./assets/bento_showcase.svg" alt="Flagship Architecture &amp; UI Bento Showcase" width="100%" />
 </a>
 
 </div>
@@ -30,80 +25,30 @@
 
 ---
 
-### Executive Profile
-
-Third-year Computer Engineering undergraduate (**Batch of 2028, CGPA: 8.86**) at **Pimpri Chinchwad College of Engineering (PCCOE), Pune**. Combines competitive programming rigor with hands-on production engineering, having architected, built, and shipped real-world web infrastructure for paying commercial clients. 
-
-Focused on **scalable system design, distributed data integrity, modern 3D WebGL interfaces, and algorithmic problem solving**.
-
-<br>
-
----
-
-### Featured Production Engineering
-
-#### `01` Shivkush Hi-Tech Nursery — Full-Stack E-Commerce Infrastructure
-> **Role:** Contracted Full-Stack Software Developer &bull; *December 2025 – Present*  
-> **Core Stack:** `Supabase (PostgreSQL)` &bull; `Three.js` &bull; `WebGL` &bull; `Canvas API` &bull; `PWA & ServiceWorkers`
-
-* **High-Performance Spatial Frontend:** Architected a bilingual (English / Marathi) mobile-first interface featuring dynamic dark mode, interactive 3D WebGL product displays via Three.js, and high-framerate particle simulations via the Canvas API.
-* **Secure Commerce & Relational Engine:** Engineered a complete shopping cart and real-time order lifecycle backend utilizing Supabase with strict **Row-Level Security (RLS)** policies, custom database constraints, and transactional order management.
-* **Operations Command Dashboard:** Built an administrative interface with full CRUD workflows, live stock tracking, financial analytics, and a dynamic CMS for live announcements.
-* **Offline-First PWA:** Integrated ServiceWorker caching protocols for instant load times, 1-tap WhatsApp ordering, automated SEO metadata, and app installation capabilities for rural users.
-
-<br>
-
-#### `02` PralayVeer — Rapid-Response Disaster Preparedness Architecture
-> **Role:** Frontend Systems Lead &bull; *Smart India Hackathon (SIH) — August 2024*  
-> **Core Stack:** `Vanilla JS (ES6+)` &bull; `Accessible Web Standards` &bull; `Collaborative Git Workflow`
-
-* Delivered a fully functional emergency awareness and disaster response MVP under strict 24-hour hackathon competition constraints.
-* Enforced WCAG accessibility and low-bandwidth optimizations to guarantee real-time usability for non-technical users facing urgent crisis scenarios.
-
-<br>
-
-#### `03` Startup Valuation Predictor — Machine Learning Pipeline
-> **Role:** ML & Data Engineer &bull; *October 2024*  
-> **Core Stack:** `Python` &bull; `Scikit-Learn` &bull; `Pandas` &bull; `Matplotlib`
-
-* Developed a predictive regression pipeline estimating private market startup valuations across varying sector verticals.
-* Cleaned and engineered feature sets from historical multi-stage venture financing rounds, generating sector growth velocity metrics and ecosystem visualizations.
-
-<br>
-
----
-
-### Technical Architecture & Systems Taxonomy
+### Featured Production Architecture
 
 <table>
   <tr>
-    <td width="25%" valign="top"><b>Languages &amp; Core</b></td>
-    <td width="75%">
-      <code>C++20</code> &bull; <code>JavaScript (ES6+)</code> &bull; <code>Python 3</code> &bull; <code>SQL / PostgreSQL</code> &bull; <code>HTML5 &amp; CSS3</code>
+    <td width="33%" valign="top">
+      <h4><code>01</code> Shivkush Hi-Tech Nursery</h4>
+      <p><b>Commercial E-Commerce Platform</b><br>
+      <sub>Dec 2025 – Present &bull; Client Contract</sub></p>
+      <p>Bilingual (EN/MR) mobile-first PWA featuring real-time Supabase PostgreSQL with Row-Level Security (RLS), interactive Three.js 3D WebGL product displays, Canvas API particle animations, and 1-tap WhatsApp CRM ordering.</p>
+      <sub><code>Supabase</code> &bull; <code>Three.js</code> &bull; <code>WebGL</code> &bull; <code>PostgreSQL RLS</code> &bull; <code>PWA</code></sub>
     </td>
-  </tr>
-  <tr>
-    <td width="25%" valign="top"><b>Frontend &amp; Spatial</b></td>
-    <td width="75%">
-      <code>Three.js</code> &bull; <code>WebGL</code> &bull; <code>HTML5 Canvas API</code> &bull; <code>Tailwind CSS</code> &bull; <code>Progressive Web Apps (PWA)</code> &bull; <code>Responsive Design</code>
+    <td width="33%" valign="top">
+      <h4><code>02</code> PralayVeer</h4>
+      <p><b>Disaster Awareness System</b><br>
+      <sub>Smart India Hackathon (SIH) 2024</sub></p>
+      <p>Lead frontend architecture for a rapid-response emergency preparedness platform delivered within a high-pressure 24-hour hackathon timeline, enforcing strict WCAG accessibility for non-technical users.</p>
+      <sub><code>Vanilla JS</code> &bull; <code>Accessible UI</code> &bull; <code>Collaborative Git</code> &bull; <code>MVP</code></sub>
     </td>
-  </tr>
-  <tr>
-    <td width="25%" valign="top"><b>Backend &amp; Cloud</b></td>
-    <td width="75%">
-      <code>Supabase</code> &bull; <code>PostgreSQL (RLS &amp; Indexing)</code> &bull; <code>Node.js</code> &bull; <code>MongoDB</code> &bull; <code>REST APIs</code> &bull; <code>Service Workers</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="25%" valign="top"><b>Algorithms &amp; Methods</b></td>
-    <td width="75%">
-      <code>Graph Theory</code> &bull; <code>Dynamic Programming</code> &bull; <code>Greedy Paradigms</code> &bull; <code>Object-Oriented Design (OOD)</code> &bull; <code>System Architecture</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="25%" valign="top"><b>Tooling &amp; Data</b></td>
-    <td width="75%">
-      <code>Git &amp; GitHub</code> &bull; <code>Linux / Bash</code> &bull; <code>Scikit-Learn</code> &bull; <code>Pandas</code> &bull; <code>Figma (UI/UX Design Systems)</code>
+    <td width="33%" valign="top">
+      <h4><code>03</code> Valuation Predictor</h4>
+      <p><b>Machine Learning Pipeline</b><br>
+      <sub>Oct 2024 &bull; Venture Analytics</sub></p>
+      <p>Predictive regression model estimating venture startup valuations utilizing historical multi-stage financing telemetry, sector growth velocity indices, and automated feature engineering pipelines.</p>
+      <sub><code>Python</code> &bull; <code>Scikit-Learn</code> &bull; <code>Pandas</code> &bull; <code>Data Visualization</code></sub>
     </td>
   </tr>
 </table>
@@ -112,14 +57,40 @@ Focused on **scalable system design, distributed data integrity, modern 3D WebGL
 
 ---
 
-### Verified Algorithmic Milestones
+### Technical Architecture & Systems Taxonomy
 
-* **IIT NPTEL Silver Medalist:** Ranked in the top bracket with **77/100 (Elite + Silver)** in *"Algorithmic Graph Theory and Data Structures"* — an intensive 12-week IIT curriculum covering maximum flow networks, shortest path topologies, and NP-completeness.
-* **Competitive Problem Solving:** 500+ verified solutions across algorithmic platforms:
-  * **CodeChef:** 2-Star Competitor *(Peak Rating: 1434)*
-  * **Codeforces:** Pupil *(Peak Rating: 1227, 200+ problems solved)*
-  * **HackerRank:** 5-Star Competitor *(C++)*
-  * **LeetCode:** 213+ algorithmic challenges solved in graph theory, DP, and greedy heuristics.
+<div align="center">
+
+<p align="center">
+  <b>Systems &amp; Algorithms</b><br>
+  <img src="https://img.shields.io/badge/C++20-0D0F12?style=flat-square&logo=c%2B%2B&logoColor=455CE9" alt="C++" />
+  <img src="https://img.shields.io/badge/Python_3-0D0F12?style=flat-square&logo=python&logoColor=455CE9" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript_ES6+-0D0F12?style=flat-square&logo=javascript&logoColor=455CE9" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Graph_Theory-0D0F12?style=flat-square&logo=diagram-next&logoColor=10B981" alt="Graph Theory" />
+  <img src="https://img.shields.io/badge/Dynamic_Programming-0D0F12?style=flat-square&logo=algorithm&logoColor=10B981" alt="DP" />
+</p>
+
+<p align="center">
+  <b>Spatial &amp; Modern Web</b><br>
+  <img src="https://img.shields.io/badge/Three.js-0D0F12?style=flat-square&logo=threedotjs&logoColor=F4F4F6" alt="Three.js" />
+  <img src="https://img.shields.io/badge/WebGL-0D0F12?style=flat-square&logo=webgl&logoColor=F4F4F6" alt="WebGL" />
+  <img src="https://img.shields.io/badge/HTML5_Canvas-0D0F12?style=flat-square&logo=html5&logoColor=F4F4F6" alt="Canvas" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-0D0F12?style=flat-square&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/PWA_&_Workers-0D0F12?style=flat-square&logo=pwa&logoColor=8B5CF6" alt="PWA" />
+  <img src="https://img.shields.io/badge/Node.js-0D0F12?style=flat-square&logo=nodedotjs&logoColor=10B981" alt="Node.js" />
+</p>
+
+<p align="center">
+  <b>Databases, Cloud &amp; Intelligence</b><br>
+  <img src="https://img.shields.io/badge/Supabase-0D0F12?style=flat-square&logo=supabase&logoColor=10B981" alt="Supabase" />
+  <img src="https://img.shields.io/badge/PostgreSQL_(RLS)-0D0F12?style=flat-square&logo=postgresql&logoColor=38BDF8" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MongoDB-0D0F12?style=flat-square&logo=mongodb&logoColor=10B981" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-0D0F12?style=flat-square&logo=scikitlearn&logoColor=F59E0B" alt="Scikit-Learn" />
+  <img src="https://img.shields.io/badge/Pandas-0D0F12?style=flat-square&logo=pandas&logoColor=8B5CF6" alt="Pandas" />
+  <img src="https://img.shields.io/badge/Git_/_Linux-0D0F12?style=flat-square&logo=linux&logoColor=F4F4F6" alt="Linux" />
+</p>
+
+</div>
 
 <br>
 
@@ -130,12 +101,12 @@ Focused on **scalable system design, distributed data integrity, modern 3D WebGL
 <div align="center">
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Yashvardhan-4&show_icons=true&bg_color=141518&title_color=F4F4F6&text_color=8C9099&icon_color=455CE9&border_color=22252B&count_private=true" alt="GitHub Overview Statistics" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yashvardhan-4&layout=compact&bg_color=141518&title_color=F4F4F6&text_color=8C9099&border_color=22252B" alt="Top Languages Distribution" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Yashvardhan-4&show_icons=true&bg_color=0D0F12&title_color=F4F4F6&text_color=7E8494&icon_color=455CE9&border_color=1F242D&count_private=true" alt="GitHub Overview Statistics" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yashvardhan-4&layout=compact&bg_color=0D0F12&title_color=F4F4F6&text_color=7E8494&border_color=1F242D" alt="Top Languages Distribution" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Yashvardhan-4&theme=dark&background=141518&border=22252B&stroke=22252B&ring=455CE9&fire=455CE9&currStreakNum=F4F4F6&sideNums=8C9099&currStreakLabel=455CE9&sideLabels=8C9099&dates=6B7280" alt="Commit Streak Telemetry" width="97%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Yashvardhan-4&theme=dark&background=0D0F12&border=1F242D&stroke=1F242D&ring=455CE9&fire=455CE9&currStreakNum=F4F4F6&sideNums=7E8494&currStreakLabel=455CE9&sideLabels=7E8494&dates=4B5563" alt="Commit Streak Telemetry" width="97%" />
 </p>
 
 <p align="center">
@@ -154,7 +125,7 @@ Focused on **scalable system design, distributed data integrity, modern 3D WebGL
 
 <div align="center">
 
-### Direct Communications & Inquiries
+### Direct Communications & Verified Profiles
 
 <p align="center">
   <b>Yashvardhan Shashikant Borude</b><br>
@@ -164,15 +135,16 @@ Focused on **scalable system design, distributed data integrity, modern 3D WebGL
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/yashvardhan-borude-8640a6319/"><img src="https://img.shields.io/badge/LinkedIn-Connect-141518?style=flat-square&logo=linkedin&logoColor=455CE9&labelColor=0C0D0E" alt="LinkedIn" /></a>
-  <a href="https://leetcode.com/u/yashvardhan_4/"><img src="https://img.shields.io/badge/LeetCode-Profile-141518?style=flat-square&logo=leetcode&logoColor=455CE9&labelColor=0C0D0E" alt="LeetCode" /></a>
-  <a href="https://codeforces.com/profile/yashvardhanborude7"><img src="https://img.shields.io/badge/Codeforces-Pupil-141518?style=flat-square&logo=codeforces&logoColor=455CE9&labelColor=0C0D0E" alt="Codeforces" /></a>
-  <a href="https://www.codechef.com/users/cheer_swan_02"><img src="https://img.shields.io/badge/CodeChef-2★-141518?style=flat-square&logo=codechef&logoColor=455CE9&labelColor=0C0D0E" alt="CodeChef" /></a>
-  <a href="./NewResume.pdf"><img src="https://img.shields.io/badge/Download-Resume_PDF-141518?style=flat-square&logo=adobeacrobatreader&logoColor=10B981&labelColor=0C0D0E" alt="Resume" /></a>
+  <a href="https://linkedin.com/in/yashvardhan-borude-8640a6319/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0D0F12?style=flat-square&logo=linkedin&logoColor=455CE9&labelColor=07080A" alt="LinkedIn" /></a>
+  <a href="https://leetcode.com/u/yashvardhan_4/"><img src="https://img.shields.io/badge/LeetCode-213+_Solved-0D0F12?style=flat-square&logo=leetcode&logoColor=FFA116&labelColor=07080A" alt="LeetCode" /></a>
+  <a href="https://codeforces.com/profile/yashvardhanborude7"><img src="https://img.shields.io/badge/Codeforces-Pupil_1227-0D0F12?style=flat-square&logo=codeforces&logoColor=455CE9&labelColor=07080A" alt="Codeforces" /></a>
+  <a href="https://www.codechef.com/users/cheer_swan_02"><img src="https://img.shields.io/badge/CodeChef-2★_1434-0D0F12?style=flat-square&logo=codechef&logoColor=5B4638&labelColor=07080A" alt="CodeChef" /></a>
+  <a href="https://www.hackerrank.com/profile/yashvardhanboru9"><img src="https://img.shields.io/badge/HackerRank-5★_C++-0D0F12?style=flat-square&logo=hackerrank&logoColor=10B981&labelColor=07080A" alt="HackerRank" /></a>
+  <a href="./NewResume.pdf"><img src="https://img.shields.io/badge/Curriculum_Vitae-PDF_Download-0D0F12?style=flat-square&logo=adobeacrobatreader&logoColor=10B981&labelColor=07080A" alt="Resume" /></a>
 </p>
 
 <br>
 
-<sub>Designed with editorial rigor &bull; Monochromatic obsidian palette `#0C0D0E` with Dennis Snellenberg cobalt `#455CE9`</sub>
+<sub>Crafted with high-precision UI engineering &bull; Clean obsidian palette `#0D0F12` with Royal Cobalt `#455CE9`</sub>
 
 </div>

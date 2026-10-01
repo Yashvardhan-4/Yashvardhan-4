@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 210" width="100%" height="210" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap');
+      
+      .bg { fill: #0A0B0D; stroke: #1F242D; stroke-width: 1; rx: 16px; }
+      .font-sans { font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', monospace; }
+      
+      .pill { fill: #13171F; stroke: #232936; stroke-width: 1; rx: 12px; }
+      .status-dot { fill: #10B981; }
+      .status-pulse { stroke: #10B981; stroke-width: 1.5; animation: pulse 2s cubic-bezier(0, 0, 0.2, 1) infinite; transform-origin: 32px 34px; }
+      
+      .title-name { font-size: 36px; font-weight: 800; fill: #F4F4F6; letter-spacing: -0.03em; }
+      .subtitle { font-size: 14px; font-weight: 600; fill: #455CE9; letter-spacing: 0.04em; text-transform: uppercase; }
+      .tagline { font-size: 13.5px; font-weight: 500; fill: #8C92A4; }
+      .tagline-bold { fill: #E1E4EA; font-weight: 600; }
+      
+      .keycap { fill: #161A24; stroke: #262D3D; stroke-width: 1; rx: 6px; }
+      .key-text { font-size: 11px; font-weight: 600; fill: #C4C8D4; }
+      .key-label { font-size: 11px; font-weight: 500; fill: #717786; }
+      
+      @keyframes pulse {
+        75%, 100% { transform: scale(2.2); opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <!-- Container Surface -->
+  <rect class="bg" width="100%" height="100%" />
+
+  <!-- Top Presence Row -->
+  <g transform="translate(32, 22)">
+    <!-- Location Pill -->
+    <rect class="pill" width="370" height="26" rx="13" />
+    <circle class="status-pulse" cx="16" cy="13" r="4" fill="none" />
+    <circle class="status-dot" cx="16" cy="13" r="3" />
+    <text class="font-mono" x="28" y="17" font-size="11px" fill="#8C92A4">PUNE, INDIA <tspan fill="#4B5563">•</tspan> PCCOE CE '28 <tspan fill="#455CE9" font-weight="600">[CGPA 8.86]</tspan></text>
+
+    <!-- Availability Pill -->
+    <g transform="translate(612, 0)">
+      <rect class="pill" width="244" height="26" rx="13" />
+      <circle cx="16" cy="13" r="3" fill="#10B981" />
+      <text class="font-mono" x="28" y="17" font-size="11px" fill="#A1A7B8">OPEN FOR HIGH-IMPACT ROLES</text>
+    </g>
+  </g>
+
+  <!-- Divider Rule -->
+  <line x1="32" y1="64" x2="888" y2="64" stroke="#1F242D" stroke-width="1" />
+
+  <!-- Main Hero Block -->
+  <text class="font-sans title-name" x="32" y="108">Yashvardhan Borude</text>
+  <text class="font-mono subtitle" x="32" y="132">Full Stack Software Engineer &amp; Algorithmic Specialist</text>
+  <text class="font-sans tagline" x="32" y="156">
+    Architecting production-grade web systems with <tspan class="tagline-bold">Supabase, PostgreSQL, and Three.js</tspan>.
+    Merging database rigor with interactive spatial UI and competitive algorithmic discipline.
+  </text>
+
+  <!-- Raycast / Linear Keyboard Action Strip -->
+  <g transform="translate(32, 172)">
+    <!-- Key 1: LinkedIn -->
+    <rect class="keycap" x="0" y="0" width="32" height="22" />
+    <text class="font-mono key-text" x="16" y="15" text-anchor="middle">⌥L</text>
+    <text class="font-mono key-label" x="38" y="15">LinkedIn</text>
+
+    <!-- Key 2: LeetCode -->
+    <rect class="keycap" x="110" y="0" width="32" height="22" />
+    <text class="font-mono key-text" x="126" y="15" text-anchor="middle">⌥C</text>
+    <text class="font-mono key-label" x="148" y="15">LeetCode (213+)</text>
+
+    <!-- Key 3: Codeforces -->
+    <rect class="keycap" x="270" y="0" width="32" height="22" />
+    <text class="font-mono key-text" x="286" y="15" text-anchor="middle">⌥F</text>
+    <text class="font-mono key-label" x="308" y="15">Codeforces (Pupil)</text>
+
+    <!-- Key 4: CodeChef -->
+    <rect class="keycap" x="445" y="0" width="32" height="22" />
+    <text class="font-mono key-text" x="461" y="15" text-anchor="middle">⌥S</text>
+    <text class="font-mono key-label" x="483" y="15">CodeChef (2★)</text>
+
+    <!-- Key 5: Resume -->
+    <rect class="keycap" x="600" y="0" width="32" height="22" />
+    <text class="font-mono key-text" x="616" y="15" text-anchor="middle">⌘R</text>
+    <text class="font-mono key-label" x="638" y="15">Curriculum Vitae (PDF)</text>
+  </g>
+</svg>
