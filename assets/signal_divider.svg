@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 28" width="100%" height="28" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&amp;display=swap');
+      .font-mono { font-family: 'JetBrains Mono', monospace; font-size: 9px; fill: #4B5262; letter-spacing: 0.14em; }
+    </style>
+  </defs>
+
+  <!-- Hairline Axis -->
+  <line x1="40" y1="14" x2="880" y2="14" stroke="#161B24" stroke-width="1" />
+
+  <!-- Precision Crosshairs -->
+  <path d="M 40 8 L 40 20 M 34 14 L 46 14" stroke="#2544FF" stroke-width="1" />
+  <path d="M 460 10 L 460 18 M 456 14 L 464 14" stroke="#2A3344" stroke-width="1" />
+  <path d="M 880 8 L 880 20 M 874 14 L 886 14" stroke="#2544FF" stroke-width="1" />
+
+  <!-- Precision Metadata Tags -->
+  <text class="font-mono" x="60" y="17">AXIS // 0.5PX</text>
+  <text class="font-mono" x="820" y="17" text-anchor="end">GRID // REF. 01</text>
+</svg>
