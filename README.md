@@ -2,7 +2,7 @@
 
 <!-- MOVEMENT 01: MONOLITH HERO -->
 <a href="https://linkedin.com/in/yashvardhan-borude-8640a6319/">
-  <img src="./assets/hero_monolith.svg" alt="Yashvardhan Borude — Software Engineer &amp; Creative Technologist" width="100%" />
+  <img src="./assets/hero.svg" alt="Yashvardhan Borude — Software Engineer &amp; Creative Technologist" width="100%" />
 </a>
 
 </div>
