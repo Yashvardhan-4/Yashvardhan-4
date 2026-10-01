@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 170" width="100%" height="170" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&amp;display=swap');
+      .font-mono { font-family: 'JetBrains Mono', monospace; font-size: 9px; fill: #525866; letter-spacing: 0.14em; text-transform: uppercase; }
+      .bg { fill: #07080A; stroke: #181D26; stroke-width: 1; rx: 12px; }
+      .edge { stroke: #19202E; stroke-width: 1.2; }
+      .edge-active { stroke: #2544FF; stroke-width: 1.8; opacity: 0.85; }
+      .edge-accent { stroke: #38BDF8; stroke-width: 1.5; opacity: 0.7; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="100%" height="100%" />
+
+  <!-- Technical Header -->
+  <g transform="translate(32, 24)">
+    <text class="font-mono" x="0" y="0"><tspan fill="#2544FF">[ + ]</tspan> ARTIFACT // 01 &#160;•&#160; GRAPH TOPOLOGY &amp; CLUSTERING</text>
+    <text class="font-mono" x="816" y="0" text-anchor="end">TRACE-X INVESTIGATION ENGINE &#160;•&#160; REACT FLOW</text>
+  </g>
+  <line x1="32" y1="34" x2="848" y2="34" stroke="#141822" stroke-width="1" />
+
+  <!-- Abstract Forensic Graph Constellation -->
+  <g transform="translate(60, 42)">
+    <!-- Background Grid Lines -->
+    <line x1="0" y1="50" x2="760" y2="50" stroke="#0E121A" stroke-width="1" stroke-dasharray="2 4" />
+    <line x1="200" y1="0" x2="200" y2="90" stroke="#0E121A" stroke-width="1" stroke-dasharray="2 4" />
+    <line x1="500" y1="0" x2="500" y2="90" stroke="#0E121A" stroke-width="1" stroke-dasharray="2 4" />
+
+    <!-- Inactive / Structural Network Edges -->
+    <line x1="50" y1="45" x2="140" y2="20" class="edge" />
+    <line x1="50" y1="45" x2="120" y2="75" class="edge" />
+    <line x1="120" y1="75" x2="220" y2="60" class="edge" />
+    <line x1="220" y1="60" x2="310" y2="80" class="edge" />
+    <line x1="310" y1="80" x2="420" y2="45" class="edge" />
+    <line x1="420" y1="45" x2="520" y2="70" class="edge" />
+    <line x1="520" y1="70" x2="610" y2="35" class="edge" />
+    <line x1="610" y1="35" x2="710" y2="55" class="edge" />
+
+    <!-- Active Forensic Path (Klein Blue & Sky Highlight) -->
+    <line x1="140" y1="20" x2="260" y2="25" class="edge-active" />
+    <line x1="260" y1="25" x2="360" y2="15" class="edge-active" />
+    <line x1="360" y1="15" x2="480" y2="35" class="edge-active" />
+    <line x1="480" y1="35" x2="580" y2="20" class="edge-accent" />
+    <line x1="580" y1="20" x2="670" y2="40" class="edge-active" />
+    <line x1="360" y1="15" x2="420" y2="45" class="edge-accent" />
+
+    <!-- Concentric Detection Radii -->
+    <circle cx="360" cy="15" r="22" stroke="#2544FF" stroke-width="1" fill="rgba(37, 68, 255, 0.05)" stroke-dasharray="2 3" />
+    <circle cx="580" cy="20" r="18" stroke="#38BDF8" stroke-width="1" fill="rgba(56, 189, 248, 0.05)" stroke-dasharray="2 3" />
+
+    <!-- Graph Nodes -->
+    <circle cx="50" cy="45" r="4" fill="#182030" stroke="#303A4C" stroke-width="1.5" />
+    <circle cx="120" cy="75" r="3.5" fill="#182030" stroke="#303A4C" stroke-width="1.5" />
+    <circle cx="140" cy="20" r="5" fill="#1E2B46" stroke="#2544FF" stroke-width="2" />
+    <circle cx="220" cy="60" r="3" fill="#182030" stroke="#303A4C" stroke-width="1" />
+    <circle cx="260" cy="25" r="5" fill="#1E2B46" stroke="#2544FF" stroke-width="2" />
+    <circle cx="310" cy="80" r="3.5" fill="#182030" stroke="#303A4C" stroke-width="1" />
+    
+    <!-- Central Cluster Hub -->
+    <circle cx="360" cy="15" r="7" fill="#2544FF" />
+    <circle cx="360" cy="15" r="3" fill="#FFFFFF" />
+
+    <circle cx="420" cy="45" r="4.5" fill="#14223A" stroke="#38BDF8" stroke-width="1.5" />
+    <circle cx="480" cy="35" r="5.5" fill="#1E2B46" stroke="#2544FF" stroke-width="2" />
+    <circle cx="520" cy="70" r="3.5" fill="#182030" stroke="#303A4C" stroke-width="1" />
+    
+    <!-- Secondary Hub -->
+    <circle cx="580" cy="20" r="6" fill="#38BDF8" />
+    <circle cx="580" cy="20" r="2.5" fill="#FFFFFF" />
+
+    <circle cx="610" cy="35" r="4" fill="#182030" stroke="#303A4C" stroke-width="1.5" />
+    <circle cx="670" cy="40" r="5" fill="#1E2B46" stroke="#2544FF" stroke-width="2" />
+    <circle cx="710" cy="55" r="3.5" fill="#182030" stroke="#303A4C" stroke-width="1" />
+  </g>
+
+  <!-- Technical Footer Axis -->
+  <line x1="32" y1="145" x2="848" y2="145" stroke="#141822" stroke-width="1" />
+  <g transform="translate(32, 158)" class="font-mono">
+    <text x="0" y="0">CLUSTER DENSITY: 0.18</text>
+    <text x="408" y="0" text-anchor="middle">CROSS-CORRELATED LINK PATHWAYS</text>
+    <text x="816" y="0" text-anchor="end">STATUS: HIGH CONFIDENCE</text>
+  </g>
+</svg>

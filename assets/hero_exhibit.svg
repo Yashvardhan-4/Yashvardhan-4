@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="100%" height="500" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;display=swap');
+
+      .font-sans { font-family: 'Plus Jakarta Sans', -apple-system, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', monospace; }
+
+      .name-primary { font-size: 104px; font-weight: 800; fill: #EDEDF0; letter-spacing: -0.05em; }
+      .name-secondary { font-size: 104px; font-weight: 800; fill: #8E94A4; letter-spacing: -0.05em; }
+
+      .coord-text { font-size: 10px; font-weight: 500; fill: #6B7280; letter-spacing: 0.15em; text-transform: uppercase; }
+      .role-text { font-size: 12.5px; font-weight: 600; fill: #EDEDF0; letter-spacing: 0.14em; text-transform: uppercase; }
+      .desc-text { font-size: 12px; font-weight: 400; fill: #606675; }
+
+      .status-pill { fill: #0B0E14; stroke: #1E2536; stroke-width: 1; rx: 12px; }
+
+      .wave-1 {
+        animation: waveSlide 6s linear infinite;
+      }
+      .wave-2 {
+        animation: waveSlideReverse 8s linear infinite;
+      }
+
+      @keyframes waveSlide {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-200px); }
+      }
+      @keyframes waveSlideReverse {
+        0% { transform: translateX(-200px); }
+        100% { transform: translateX(0); }
+      }
+
+      .pulse-dot {
+        animation: blink 2.5s ease-in-out infinite alternate;
+      }
+      @keyframes blink {
+        0% { opacity: 0.3; }
+        100% { opacity: 1; }
+      }
+    </style>
+
+    <clipPath id="waveClip">
+      <rect x="0" y="210" width="1000" height="90" />
+    </clipPath>
+  </defs>
+
+  <!-- Deep Obsidian Void Canvas -->
+  <rect width="1000" height="500" fill="#07080A" rx="16" />
+
+  <!-- Top Metadata & Technical Reticles -->
+  <g transform="translate(48, 48)">
+    <text class="font-mono coord-text" x="0" y="0">
+      <tspan fill="#2544FF">[ + ]</tspan> RECORD // 2026 &#160;•&#160; PCCOE PUNE &#160;•&#160; CLASS OF 2028
+    </text>
+
+    <text class="font-mono coord-text" x="904" y="0" text-anchor="end">
+      18°31'14" N, 73°51'24" E &#160;•&#160; <tspan fill="#EDEDF0">ELEV. 560M</tspan>
+    </text>
+  </g>
+
+  <!-- Architectural Datum Line -->
+  <line x1="48" y1="64" x2="952" y2="64" stroke="#161B24" stroke-width="1" />
+
+  <!-- Monumental First Name (Upper Left Anchor) -->
+  <g transform="translate(48, 168)">
+    <text class="font-sans name-primary" x="0" y="0">YASHVARDHAN</text>
+  </g>
+
+  <!-- The Living Generative Waveform Horizon -->
+  <g clip-path="url(#waveClip)">
+    <line x1="48" y1="255" x2="952" y2="255" stroke="#141822" stroke-width="1" />
+
+    <!-- Harmonic 2 (Secondary Subdued Frequency) -->
+    <g class="wave-2">
+      <path d="M -200 255 Q -150 230 -100 255 T 0 255 T 100 255 T 200 255 T 300 255 T 400 255 T 500 255 T 600 255 T 700 255 T 800 255 T 900 255 T 1000 255 T 1100 255 T 1200 255" 
+            stroke="#1E283A" stroke-width="1.2" stroke-dasharray="3 4" fill="none" />
+    </g>
+
+    <!-- Harmonic 1 (Luminous Klein Blue Frequency) -->
+    <g class="wave-1">
+      <path d="M 0 255 Q 50 232 100 255 T 200 255 T 300 255 T 400 255 T 500 255 T 600 255 T 700 255 T 800 255 T 900 255 T 1000 255 T 1100 255 T 1200 255" 
+            stroke="#2544FF" stroke-width="2.2" fill="none" opacity="0.95" />
+    </g>
+
+    <!-- Phase Nodes -->
+    <circle cx="300" cy="255" r="3" fill="#2544FF" />
+    <circle cx="500" cy="255" r="3" fill="#2544FF" />
+    <circle cx="700" cy="255" r="3" fill="#2544FF" />
+    <circle cx="900" cy="255" r="3" fill="#2544FF" />
+  </g>
+
+  <!-- Monumental Last Name (Staggered Lower Right Anchor) -->
+  <g transform="translate(48, 380)">
+    <text class="font-sans name-secondary" x="420" y="0">BORUDE</text>
+  </g>
+
+  <!-- Baseline Datum Line -->
+  <line x1="48" y1="416" x2="952" y2="416" stroke="#161B24" stroke-width="1" />
+
+  <!-- Lower Manifesto & Runtime Dock -->
+  <g transform="translate(48, 448)">
+    <text class="font-mono role-text" x="0" y="0">
+      CREATIVE TECHNOLOGIST × SOFTWARE ENGINEER
+    </text>
+    <text class="font-sans desc-text" x="0" y="22">
+      Student &amp; software builder exploring spatial 3D WebGL, full-stack systems, and applied algorithms.
+    </text>
+
+    <!-- Live Status Pill -->
+    <g transform="translate(774, -8)">
+      <rect class="status-pill" width="130" height="24" />
+      <circle class="pulse-dot" cx="16" cy="12" r="3.5" fill="#10B981" />
+      <text class="font-mono coord-text" x="28" y="15" fill="#A5ABB9">RUNTIME: ACTIVE</text>
+    </g>
+  </g>
+</svg>
