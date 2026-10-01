@@ -1,26 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 230" width="100%" height="230" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 220" width="100%" height="220" fill="none">
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;display=swap');
 
-      .bg { fill: #07080A; stroke: #1E232E; stroke-width: 1; rx: 16px; }
+      .bg { fill: #07080A; stroke: #1E232E; stroke-width: 1; rx: 14px; }
       .font-sans { font-family: 'Plus Jakarta Sans', -apple-system, sans-serif; }
       .font-mono { font-family: 'JetBrains Mono', monospace; }
 
-      .name-primary { font-size: 44px; font-weight: 800; fill: #EDEDF0; letter-spacing: -0.04em; }
-      .name-secondary { font-size: 44px; font-weight: 800; fill: #9499A8; letter-spacing: -0.04em; }
+      .name-primary { font-size: 42px; font-weight: 800; fill: #EDEDF0; letter-spacing: -0.04em; }
+      .name-secondary { font-size: 42px; font-weight: 800; fill: #8E94A4; letter-spacing: -0.04em; }
 
       .coord-text { font-size: 10px; font-weight: 500; fill: #6B7280; letter-spacing: 0.12em; text-transform: uppercase; }
-      .role-text { font-size: 11.5px; font-weight: 600; fill: #A5ABB9; letter-spacing: 0.14em; text-transform: uppercase; }
+      .role-text { font-size: 11.5px; font-weight: 600; fill: #A5ABB9; letter-spacing: 0.12em; text-transform: uppercase; }
       .desc-text { font-size: 11.5px; font-weight: 400; fill: #606675; }
 
       .status-pill { fill: #0F1218; stroke: #202736; stroke-width: 1; rx: 11px; }
 
       .wave-1 {
-        animation: waveSlide 4s linear infinite;
+        animation: waveSlide 5s linear infinite;
       }
       .wave-2 {
-        animation: waveSlideReverse 6s linear infinite;
+        animation: waveSlideReverse 7s linear infinite;
       }
 
       @keyframes waveSlide {
@@ -42,7 +42,7 @@
     </style>
 
     <clipPath id="waveClip">
-      <rect x="36" y="112" width="848" height="50" rx="4" />
+      <rect x="36" y="105" width="848" height="50" rx="4" />
     </clipPath>
   </defs>
 
@@ -50,57 +50,53 @@
   <rect class="bg" width="100%" height="100%" />
 
   <!-- Top Metadata & Coordinates Bar -->
-  <g transform="translate(40, 36)">
-    <!-- Signal Identifier -->
+  <g transform="translate(40, 34)">
     <text class="font-mono coord-text" x="0" y="0">
-      <tspan fill="#2544FF">[ + ]</tspan> SIGNAL // 01 &nbsp;•&nbsp; PUNE, IN
+      <tspan fill="#2544FF">[ + ]</tspan> SIGNAL // 01 &#160;•&#160; PUNE, IN &#160;•&#160; PCCOE CE '28
     </text>
 
-    <!-- Global Reticle Coordinates -->
     <text class="font-mono coord-text" x="840" y="0" text-anchor="end">
-      18.5204° N, 73.8567° E &nbsp;•&nbsp; <tspan fill="#EDEDF0">ELEV. 560M</tspan>
+      18.5204° N, 73.8567° E &#160;•&#160; <tspan fill="#EDEDF0">CGPA 8.86</tspan>
     </text>
   </g>
 
   <!-- Hairline Axis -->
-  <line x1="40" y1="52" x2="880" y2="52" stroke="#161B24" stroke-width="1" />
+  <line x1="40" y1="48" x2="880" y2="48" stroke="#161B24" stroke-width="1" />
 
-  <!-- Monumental Asymmetric Typography -->
-  <g transform="translate(40, 98)">
+  <!-- Asymmetric Typographic Name -->
+  <g transform="translate(40, 92)">
     <text class="font-sans name-primary" x="0" y="0">YASHVARDHAN</text>
-    <text class="font-sans name-secondary" x="330" y="0">BORUDE</text>
+    <text class="font-sans name-secondary" x="325" y="0">BORUDE</text>
   </g>
 
-  <!-- The Living Harmonic Waveform (Clipped to Horizon Canvas) -->
+  <!-- The Living Harmonic Waveform (Tested, Valid XML, Fluid Keyframes) -->
   <g clip-path="url(#waveClip)">
-    <!-- Waveform Axis Line -->
-    <line x1="36" y1="137" x2="884" y2="137" stroke="#151922" stroke-width="1" />
+    <line x1="36" y1="130" x2="884" y2="130" stroke="#151922" stroke-width="1" />
 
-    <!-- Waveform Harmonic 2 (Subtle Dotted Background Rhythm) -->
+    <!-- Waveform Harmonic 2 -->
     <g class="wave-2">
-      <path d="M -160 137 Q -120 120 -80 137 T 0 137 T 80 137 T 160 137 T 240 137 T 320 137 T 400 137 T 480 137 T 560 137 T 640 137 T 720 137 T 800 137 T 880 137 T 960 137 T 1040 137 T 1120 137 T 1200 137" 
+      <path d="M -160 130 Q -120 114 -80 130 T 0 130 T 80 130 T 160 130 T 240 130 T 320 130 T 400 130 T 480 130 T 560 130 T 640 130 T 720 130 T 800 130 T 880 130 T 960 130 T 1040 130 T 1120 130 T 1200 130" 
             stroke="#1E283A" stroke-width="1.2" stroke-dasharray="3 3" fill="none" />
     </g>
 
-    <!-- Waveform Harmonic 1 (Primary Kinetic Signal) -->
+    <!-- Waveform Harmonic 1 -->
     <g class="wave-1">
-      <path d="M 0 137 Q 40 122 80 137 T 160 137 T 240 137 T 320 137 T 400 137 T 480 137 T 560 137 T 640 137 T 720 137 T 800 137 T 880 137 T 960 137 T 1040 137 T 1120 137 T 1200 137" 
+      <path d="M 0 130 Q 40 116 80 130 T 160 130 T 240 130 T 320 130 T 400 130 T 480 130 T 560 130 T 640 130 T 720 130 T 800 130 T 880 130 T 960 130 T 1040 130 T 1120 130 T 1200 130" 
             stroke="#2544FF" stroke-width="1.8" fill="none" opacity="0.9" />
     </g>
 
-    <!-- Precision Amplitude Markers -->
-    <circle cx="360" cy="137" r="2.5" fill="#2544FF" />
-    <circle cx="520" cy="137" r="2.5" fill="#2544FF" />
-    <circle cx="680" cy="137" r="2.5" fill="#2544FF" />
+    <circle cx="360" cy="130" r="2.5" fill="#2544FF" />
+    <circle cx="520" cy="130" r="2.5" fill="#2544FF" />
+    <circle cx="680" cy="130" r="2.5" fill="#2544FF" />
   </g>
 
-  <!-- Lower Manifesto & Runtime Dock -->
-  <g transform="translate(40, 182)">
+  <!-- Lower Credible Identity & Runtime Dock -->
+  <g transform="translate(40, 178)">
     <text class="font-mono role-text" x="0" y="0">
-      CREATIVE TECHNOLOGIST × SOFTWARE ARCHITECT
+      SOFTWARE ENGINEER &amp; CREATIVE TECHNOLOGIST
     </text>
     <text class="font-sans desc-text" x="0" y="20">
-      Exploring the outer boundary between computational rigor, spatial 3D form, and tactile digital interfaces.
+      Student &amp; software builder exploring full-stack web systems, interactive 3D WebGL interfaces, and applied algorithms.
     </text>
 
     <!-- Live Status Pill -->

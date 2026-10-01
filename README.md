@@ -1,8 +1,8 @@
 <div align="center">
 
-<!-- 00 / THE ARRIVAL: ANIMATED MONOLITH HERO -->
+<!-- MOVEMENT 01: MONOLITH HERO -->
 <a href="https://linkedin.com/in/yashvardhan-borude-8640a6319/">
-  <img src="./assets/hero_monolith.svg" alt="Yashvardhan Borude — Creative Technologist &amp; Software Architect" width="100%" />
+  <img src="./assets/hero_monolith.svg" alt="Yashvardhan Borude — Software Engineer &amp; Creative Technologist" width="100%" />
 </a>
 
 </div>
@@ -11,24 +11,25 @@
   <img src="./assets/signal_divider.svg" alt="Divider" width="100%" />
 </p>
 
-### / 01 &nbsp;·&nbsp; SPECTRUM
+<!-- MOVEMENT 02: SPECTRUM / CORE FOCUS -->
+### / 01 &#160;·&#160; SPECTRUM
 
 <table>
   <tr>
-    <td width="28%"><code>01 // SPATIAL COMPUTATION</code></td>
-    <td width="72%">Interactive 3D WebGL scenes, real-time procedural shaders, Canvas API physics, and browser graphics pipelines.</td>
+    <td width="28%"><code>01 // SPATIAL &amp; WEBGL</code></td>
+    <td width="72%">Interactive 3D scenes with Three.js, HTML5 Canvas particle simulations, and responsive browser interfaces.</td>
   </tr>
   <tr>
-    <td><code>02 // SYSTEM INTEGRITY</code></td>
-    <td>Relational database architecture, PostgreSQL Row-Level Security (RLS), ACID transactions, and deterministic state flows.</td>
+    <td><code>02 // FULL-STACK SYSTEMS</code></td>
+    <td>Relational schema design, Supabase PostgreSQL with Row-Level Security (RLS), and RESTful API architecture.</td>
   </tr>
   <tr>
     <td><code>03 // ALGORITHMIC LOGIC</code></td>
-    <td>Graph topology, network max-flow, dynamic programming, and computational complexity.</td>
+    <td>Graph algorithms, network shortest paths, dynamic programming, and computational problem solving.</td>
   </tr>
   <tr>
-    <td><code>04 // TACTILE INTERFACES</code></td>
-    <td>Design engineering, micro-typography, spatial continuity, and high-performance digital ergonomics.</td>
+    <td><code>04 // APPLIED DATA &amp; ML</code></td>
+    <td>Data extraction, exploratory analysis, and predictive modeling using Python, Pandas, and Scikit-Learn.</td>
   </tr>
 </table>
 
@@ -36,93 +37,76 @@
   <img src="./assets/signal_divider.svg" alt="Divider" width="100%" />
 </p>
 
-### / 02 &nbsp;·&nbsp; SELECTED EXHIBITS
+<!-- MOVEMENT 03: SELECTED WORK (HONEST & GROUNDED) -->
+### / 02 &#160;·&#160; SELECTED WORK
 
-#### [ + ] EXHIBIT 01 — SHIVKUSH NURSERY MANAGEMENT SYSTEM (SNMS)
-> **Medium:** `Three.js` &bull; `Supabase` &bull; `PostgreSQL (RLS)` &bull; `PWA` &bull; `Vanilla JS`  
-> **Domain:** Commercial Botanical Enterprise &bull; Ahilyanagar, India
+#### [ + ] 01 — SHIVKUSH NURSERY MANAGEMENT SYSTEM (SNMS)
+> **Stack:** `Three.js` &bull; `Supabase` &bull; `PostgreSQL (RLS)` &bull; `Vanilla JS` &bull; `PWA`  
+> **Type:** Commercial Client Contract &bull; Ahilyanagar, Maharashtra
 
-A living operational infrastructure engineered for rural botanical commerce. Built with a bilingual (English / Marathi) mobile-first Progressive Web App backed by Supabase PostgreSQL with strict Row-Level Security policies. Features an interactive 3D WebGL product viewer via Three.js and resilient offline-first transaction synchronization.
-
-<br>
-
-#### [ + ] EXHIBIT 02 — PRALAYVEER / EMERGENCY TELEMETRY
-> **Medium:** `Vanilla JavaScript` &bull; `Accessible Architecture` &bull; `Smart India Hackathon '24`  
-> **Domain:** Rapid-Response Crisis Awareness
-
-A zero-latency disaster guidance interface conceived and deployed under a high-pressure 24-hour hackathon timeline. Stripped of all visual excess and heavy runtime dependencies to guarantee instantaneous rendering and accessible critical paths for non-technical users in degraded connectivity zones.
+A full-stack web application built for a commercial nursery client. Developed a bilingual (English / Marathi) mobile-first interface with an interactive 3D WebGL plant model viewer (Three.js) and Canvas particle effects. Backed by Supabase PostgreSQL with Row-Level Security policies to manage live stock levels, booking workflows, and WhatsApp-integrated customer orders.
 
 <br>
 
-#### [ + ] EXHIBIT 03 — VALUATION PROTOCOL
-> **Medium:** `Python 3` &bull; `Scikit-Learn` &bull; `Pandas` &bull; `Data Pipelines`  
-> **Domain:** Empirical Venture Modeling
+#### [ + ] 02 — PRALAYVEER / DISASTER AWARENESS PLATFORM
+> **Stack:** `JavaScript (ES6+)` &bull; `Accessible Web Standards` &bull; `Git Collaboration`  
+> **Type:** Smart India Hackathon (SIH 2024) &bull; 24-Hour MVP
 
-An automated regression pipeline estimating venture startup valuations across historical financing rounds and sector velocity indices, generating feature matrices and predictive trajectories.
+A rapid-response crisis awareness web platform built under a 24-hour hackathon timeline. Prioritized zero-latency client rendering, WCAG accessibility standards, and low-bandwidth resilience to ensure emergency instructions remain usable for non-technical citizens during crisis scenarios.
+
+<br>
+
+#### [ + ] 03 — STARTUP VALUATION PREDICTOR
+> **Stack:** `Python 3` &bull; `Scikit-Learn` &bull; `Pandas` &bull; `Matplotlib`  
+> **Type:** Applied Machine Learning Project
+
+A regression pipeline trained on historical venture capital financing datasets. Engineered feature sets across investment stages, sector velocity, and capital raised to predict startup valuation trajectories and visualize distribution patterns.
 
 <p align="center">
   <img src="./assets/signal_divider.svg" alt="Divider" width="100%" />
 </p>
 
-### / 03 &nbsp;·&nbsp; THE LAB
+<!-- MOVEMENT 04: CUSTOM GITHUB-DATA ARTWORK & SUBSTRATE -->
+### / 03 &#160;·&#160; ACTIVITY CADENCE &amp; SUBSTRATE
 
-*Active experimental sandboxes, algorithmic proofs, and graphical prototypes:*
+<div align="center">
+  <img src="./assets/activity_matrix.svg" alt="52-Week GitHub Activity Cadence" width="100%" />
+</div>
 
-* `[EXP_01]` **Procedural Canvas Particle Physics** &bull; Real-time 2D particle simulation engines built directly on the HTML5 Canvas API without external rendering libraries.
-* `[EXP_02]` **Algorithmic Graph Topology** &bull; Implementations of shortest-path networks, max-flow cuts, and polynomial reductions in modern C++20 *(IIT NPTEL Silver, 77%)*.
-* `[EXP_03]` **Spatial Fragment Shaders** &bull; Explorations into procedural noise, lighting coordinates, and WebGL geometry buffers.
-
-<p align="center">
-  <img src="./assets/signal_divider.svg" alt="Divider" width="100%" />
-</p>
-
-### / 04 &nbsp;·&nbsp; MATERIALS &amp; SUBSTRATE
+<br>
 
 ```text
-CORE         C++20  ·  Python 3  ·  JavaScript (ES6+)  ·  SQL
-SURFACE      Three.js  ·  WebGL  ·  Canvas API  ·  Tailwind CSS  ·  PWA
-STORAGE      PostgreSQL (RLS)  ·  Supabase  ·  RESTful Protocols  ·  MongoDB
-FOUNDATIONS  Graph Theory  ·  Dynamic Programming  ·  Linux  ·  Git  ·  Figma
+CORE TOOLS      C++20  ·  Python 3  ·  JavaScript (ES6+)  ·  SQL (PostgreSQL)
+SURFACE         Three.js  ·  WebGL  ·  Canvas API  ·  Tailwind CSS  ·  PWA
+DATA & CLOUD    PostgreSQL (RLS)  ·  Supabase  ·  MongoDB  ·  Scikit-Learn  ·  Pandas
+FOUNDATIONS     Data Structures & Algorithms  ·  Graph Theory  ·  Linux  ·  Git
 ```
 
 <p align="center">
   <img src="./assets/signal_divider.svg" alt="Divider" width="100%" />
 </p>
 
-### / 05 &nbsp;·&nbsp; THE PULSE
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yashvardhan-4/Yashvardhan-4/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Yashvardhan-4/Yashvardhan-4/output/github-contribution-grid-snake.svg">
-    <img alt="Contribution Grid Animation" src="https://raw.githubusercontent.com/Yashvardhan-4/Yashvardhan-4/output/github-contribution-grid-snake-dark.svg" width="97%">
-  </picture>
-</div>
-
-<p align="center">
-  <img src="./assets/signal_divider.svg" alt="Divider" width="100%" />
-</p>
-
+<!-- MOVEMENT 05: TRANSMISSION & INDEX -->
 <div align="center">
 
 ```text
 ─────────────────────────────────────────────────────────────────────────────
-END OF RECORD // YB-2026 // PUNE, MAHARASHTRA, INDIA
+END OF RECORD // YB-2026 // PUNE, INDIA
 DISPATCH → yashvardhanborude7@gmail.com
 ─────────────────────────────────────────────────────────────────────────────
 ```
 
 <p align="center">
-  <a href="https://github.com/Yashvardhan-4"><b>GitHub</b></a> &nbsp;&bull;&nbsp;
-  <a href="https://linkedin.com/in/yashvardhan-borude-8640a6319/"><b>LinkedIn</b></a> &nbsp;&bull;&nbsp;
-  <a href="https://leetcode.com/u/yashvardhan_4/"><b>LeetCode</b></a> &nbsp;&bull;&nbsp;
-  <a href="https://codeforces.com/profile/yashvardhanborude7"><b>Codeforces</b></a> &nbsp;&bull;&nbsp;
-  <a href="https://www.codechef.com/users/cheer_swan_02"><b>CodeChef</b></a> &nbsp;&bull;&nbsp;
+  <a href="https://github.com/Yashvardhan-4"><b>GitHub</b></a> &#160;&bull;&#160;
+  <a href="https://linkedin.com/in/yashvardhan-borude-8640a6319/"><b>LinkedIn</b></a> &#160;&bull;&#160;
+  <a href="https://leetcode.com/u/yashvardhan_4/"><b>LeetCode</b></a> &#160;&bull;&#160;
+  <a href="https://codeforces.com/profile/yashvardhanborude7"><b>Codeforces</b></a> &#160;&bull;&#160;
+  <a href="https://www.codechef.com/users/cheer_swan_02"><b>CodeChef</b></a> &#160;&bull;&#160;
   <a href="./NewResume.pdf"><b>Curriculum Vitae [PDF]</b></a>
 </p>
 
 <br>
 
-<sub>Designed as an editorial artifact &bull; Obsidian `#07080A` &bull; International Klein Cobalt `#2544FF`</sub>
+<sub>Designed with editorial restraint &#160;&bull;&#160; Deep Obsidian <code>#07080A</code> &#160;&bull;&#160; Klein Cobalt <code>#2544FF</code></sub>
 
 </div>
