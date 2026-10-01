@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 115" width="100%" height="115" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&amp;family=JetBrains+Mono:wght@500;600&amp;display=swap');
+      
+      .bg { fill: #141518; stroke: #22252B; stroke-width: 1; rx: 12px; }
+      .font-mono { font-family: 'JetBrains Mono', monospace; }
+      .font-sans { font-family: 'Plus Jakarta Sans', -apple-system, sans-serif; }
+      
+      .stat-num { font-size: 28px; font-weight: 800; fill: #F4F4F6; letter-spacing: -0.02em; }
+      .stat-label { font-size: 10px; font-weight: 600; fill: #8C9099; letter-spacing: 0.12em; text-transform: uppercase; }
+      .stat-detail { font-size: 11px; font-weight: 500; }
+      
+      .accent-blue { fill: #455CE9; }
+      .accent-emerald { fill: #10B981; }
+      .accent-neutral { fill: #9CA3AF; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="100%" height="100%" />
+
+  <!-- Column Dividers -->
+  <line x1="225" y1="20" x2="225" y2="95" stroke="#22252B" stroke-width="1" />
+  <line x1="450" y1="20" x2="450" y2="95" stroke="#22252B" stroke-width="1" />
+  <line x1="675" y1="20" x2="675" y2="95" stroke="#22252B" stroke-width="1" />
+
+  <!-- Column 1: Algorithmic Problems -->
+  <g transform="translate(32, 0)">
+    <text class="font-sans stat-num" x="0" y="48">500+</text>
+    <text class="font-mono stat-label" x="0" y="70">PROBLEMS SOLVED</text>
+    <text class="font-mono stat-detail accent-blue" x="0" y="88">LeetCode • Codeforces • CodeChef</text>
+  </g>
+
+  <!-- Column 2: Academic Standing -->
+  <g transform="translate(257, 0)">
+    <text class="font-sans stat-num" x="0" y="48">8.86</text>
+    <text class="font-mono stat-label" x="0" y="70">ACADEMIC CGPA</text>
+    <text class="font-mono stat-detail accent-neutral" x="0" y="88">PCCOE Pune • Computer Eng '28</text>
+  </g>
+
+  <!-- Column 3: Competitive Standing -->
+  <g transform="translate(482, 0)">
+    <text class="font-sans stat-num" x="0" y="48">2★ / Pupil</text>
+    <text class="font-mono stat-label" x="0" y="70">COMPETITIVE STANDING</text>
+    <text class="font-mono stat-detail accent-blue" x="0" y="88">CodeChef (1434) • CF (1227)</text>
+  </g>
+
+  <!-- Column 4: IIT Certification -->
+  <g transform="translate(707, 0)">
+    <text class="font-sans stat-num" x="0" y="48">Elite + Silver</text>
+    <text class="font-mono stat-label" x="0" y="70">IIT NPTEL CERTIFIED</text>
+    <text class="font-mono stat-detail accent-emerald" x="0" y="88">Graph Theory &amp; DSA (77%)</text>
+  </g>
+</svg>
