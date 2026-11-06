@@ -1,38 +1,24 @@
 # ASSET MANIFEST
-# Project: Yashvardhan Borude — Minimalist Animated Editorial GitHub Profile
+# Project: Yashvardhan Borude — Iconic GitHub Profile
 # Date: 2026-11-06
 
 ASSETS:
-1. assets/editorial_header.svg
-   - Role: Hero editorial title plate with typographic shimmer & orbit glyph
-   - Dimensions: 960x340
-   - Animation: Shimmering text gradient + pulsing beacon + orbiting diamond
+1. assets/terminal.svg
+   - Role: Custom animated terminal about-me card
+   - Dimensions: 850x420
+   - Features: macOS window buttons, cyan prompt, blinking cursor, PCCOE degree details, and active projects
 
-2. assets/tech_marquee.svg
-   - Role: Infinite kinetic tech stack ticker
-   - Dimensions: 960x90
-   - Animation: 60fps infinite marquee scroll with brand-color illuminated pills
+2. assets/tech_stack_v2.svg
+   - Role: Tech stack architecture section header
+   - Dimensions: 800x50
+   - Features: Animated rotating gear glyph with glowing cyan typography
 
-3. assets/benchmarks_animated.svg
-   - Role: Dynamic benchmark telemetry grid
-   - Dimensions: 960x140
-   - Animation: Pulsing gradient borders and live benchmark pills
+3. assets/telemetry_v2.svg
+   - Role: System telemetry section header
+   - Dimensions: 800x50
+   - Features: Animated bouncing audio/data equalizer bars with glowing cyan typography
 
-4. assets/turboidm_animated.webp
-   - Role: TurboIDM live UI simulator
-   - Dimensions: 880x420, 60fps true-color WebP
-   - Animation: 32 parallel chunk streams filling concurrently + live 138 MB/s velocity meter
-
-5. assets/inkless_animated.webp
-   - Role: Inkless distraction-free journal simulator
-   - Dimensions: 880x420, 60fps true-color WebP
-   - Animation: Real-time typewriter text typing + pulsing cursor + instant local save validation
-
-6. assets/shivkush_animated.webp
-   - Role: Shivkush Nursery 3D canopy viewer simulator
-   - Dimensions: 880x420, 60fps true-color WebP
-   - Animation: 360° rotating botanical phyllotaxis wireframe mesh + Draco 3D compression telemetry
-
-7. assets/divider_hairline.svg
-   - Role: Minimalist editorial top-rule divider
-   - Dimensions: 960x30
+4. assets/access_logs_v2.svg
+   - Role: System access logs section header
+   - Dimensions: 800x50
+   - Features: Animated pulsing radar beacon with glowing cyan typography
