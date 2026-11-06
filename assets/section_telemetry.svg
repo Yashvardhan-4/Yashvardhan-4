@@ -14,13 +14,13 @@
 
       .pulse {
         fill: none;
-        stroke: #00E5FF;
+        stroke: #10b981;
         stroke-width: 1.5;
         animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
         transform-origin: 16px 20px;
       }
       
-      .dot { fill: #00E5FF; }
+      .dot { fill: #10b981; }
 
       @keyframes ping {
         0% { transform: scale(0.6); opacity: 1; }

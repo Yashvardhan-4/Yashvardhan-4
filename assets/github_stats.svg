@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 195" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 200" width="100%" height="auto">
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700&amp;display=swap');
@@ -28,8 +28,8 @@
 
       .metric-value {
         font-family: 'Fira Code', monospace;
-        font-size: 13px;
-        font-weight: 700;
+        font-size: 12.5px;
+        font-weight: 600;
         fill: #e6edf3;
       }
 
@@ -47,69 +47,66 @@
         fill: #8b949e;
       }
 
-      .beacon {
-        fill: #00E5FF;
-        animation: pulseB 2s infinite;
+      .beacon-ghibli {
+        fill: #10b981;
+        animation: pulseG 2s infinite;
       }
 
-      @keyframes pulseB {
+      @keyframes pulseG {
         0%, 100% { opacity: 0.5; }
         50% { opacity: 1; }
       }
-
-      .bar-fill {
-        animation: loadBar 1.5s ease-out forwards;
-      }
     </style>
 
-    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00E5FF" />
-      <stop offset="100%" stop-color="#a855f7" />
+    <linearGradient id="ghibliRingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="60%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#fbbf24" />
     </linearGradient>
   </defs>
 
-  <rect width="920" height="195" fill="#0d1117" />
+  <rect width="920" height="200" fill="#0d1117" />
 
   <!-- LEFT PANEL: GITHUB STATS & METRICS -->
   <g transform="translate(16, 10)">
-    <rect width="436" height="175" class="panel-box" />
+    <rect width="436" height="180" class="panel-box" />
 
     <!-- Title -->
     <g transform="translate(20, 24)">
-      <circle cx="0" cy="0" r="3.5" class="beacon" />
+      <circle cx="0" cy="0" r="3.5" class="beacon-ghibli" />
       <text x="12" y="4" class="panel-title">GITHUB TELEMETRY // VERIFIED METRICS</text>
     </g>
 
     <!-- Metrics List -->
     <g transform="translate(20, 56)">
-      <text y="0" class="metric-label">★ Total Repositories:</text>
-      <text x="195" y="0" class="metric-value">16 Repos</text>
+      <text y="0" class="metric-label">★ Repositories:</text>
+      <text x="160" y="0" class="metric-value">16 Public Repos</text>
 
-      <text y="26" class="metric-label">⚡ Total Contributions:</text>
-      <text x="195" y="26" class="metric-value" fill="#00E5FF">260+ Commits</text>
+      <text y="26" class="metric-label">⚡ Contributions:</text>
+      <text x="160" y="26" class="metric-value" fill="#10b981">260+ Commits</text>
 
-      <text y="52" class="metric-label">🎯 Academic Standing:</text>
-      <text x="195" y="52" class="metric-value">PCCOE Pune (CGPA: 8.86)</text>
+      <text y="52" class="metric-label">🎓 Education:</text>
+      <text x="160" y="52" class="metric-value">PCCOE Pune ('28)</text>
 
-      <text y="78" class="metric-label">🏆 Certifications:</text>
-      <text x="195" y="78" class="metric-value" fill="#fbbf24">NPTEL Elite · CodeChef 2★</text>
+      <text y="78" class="metric-label">🏆 Distinctions:</text>
+      <text x="160" y="78" class="metric-value" fill="#fbbf24">CodeChef 2★ · NPTEL</text>
 
-      <text y="104" class="metric-label">🛡️ Active Status:</text>
-      <text x="195" y="104" class="metric-value" fill="#22c55e">Available for Collabs</text>
+      <text y="104" class="metric-label">🍃 Active Focus:</text>
+      <text x="160" y="104" class="metric-value" fill="#38bdf8">Algorithmic Systems</text>
     </g>
 
-    <!-- Visual Activity Ring Badge (Right side of left panel) -->
-    <g transform="translate(375, 105)">
-      <circle cx="0" cy="0" r="32" fill="none" stroke="#21262d" stroke-width="5" />
-      <circle cx="0" cy="0" r="32" fill="none" stroke="url(#ringGrad)" stroke-width="5" stroke-dasharray="201" stroke-dashoffset="35" stroke-linecap="round" transform="rotate(-90)" />
-      <text x="0" y="5" font-family="'Fira Code', monospace" font-size="16" font-weight="700" fill="#00E5FF" text-anchor="middle">A+</text>
-      <text x="0" y="48" font-family="'Fira Code', monospace" font-size="9" fill="#7d8590" text-anchor="middle">ACTIVITY</text>
+    <!-- Visual Activity Ring Badge (Clean spacing, zero collision) -->
+    <g transform="translate(372, 108)">
+      <circle cx="0" cy="0" r="28" fill="none" stroke="#21262d" stroke-width="4.5" />
+      <circle cx="0" cy="0" r="28" fill="none" stroke="url(#ghibliRingGrad)" stroke-width="4.5" stroke-dasharray="176" stroke-dashoffset="30" stroke-linecap="round" transform="rotate(-90)" />
+      <text x="0" y="5" font-family="'Fira Code', monospace" font-size="15" font-weight="700" fill="#10b981" text-anchor="middle">A+</text>
+      <text x="0" y="42" font-family="'Fira Code', monospace" font-size="8.5" font-weight="600" fill="#7d8590" text-anchor="middle">ACTIVITY</text>
     </g>
   </g>
 
   <!-- RIGHT PANEL: TOP LANGUAGES BREAKDOWN -->
   <g transform="translate(468, 10)">
-    <rect width="436" height="175" class="panel-box" />
+    <rect width="436" height="180" class="panel-box" />
 
     <!-- Title -->
     <g transform="translate(20, 24)">
@@ -130,7 +127,7 @@
       <rect x="322" y="0" width="36" height="10" fill="#3776AB" />
       <!-- CSS: 5.5% -> 21.7px -->
       <rect x="358" y="0" width="22" height="10" fill="#563D7C" />
-      <!-- C++: 4.3% -> 17.0px -->
+      <!-- C++: 4.3% -> 16.0px -->
       <rect x="380" y="0" width="16" height="10" rx="5" ry="5" fill="#F34B7D" />
     </g>
 

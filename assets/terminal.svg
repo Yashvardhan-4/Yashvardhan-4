@@ -81,11 +81,11 @@
   <!-- Terminal Tabs -->
   <g transform="translate(85, 10)">
     <rect width="130" height="32" rx="6" ry="6" class="tab-active" />
-    <circle cx="16" cy="16" r="3" fill="#00E5FF" />
+    <circle cx="16" cy="16" r="3" fill="#10b981" />
     <text x="28" y="20" class="tab-text">about_me.sh</text>
   </g>
   <g transform="translate(225, 10)">
-    <text x="16" y="20" class="tab-dim">directives.env</text>
+    <text x="16" y="20" class="tab-dim">🍃 ghibli.env</text>
   </g>
   <g transform="translate(340, 10)">
     <text x="16" y="20" class="tab-dim">benchmarks.json</text>
