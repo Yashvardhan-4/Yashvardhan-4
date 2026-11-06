@@ -1,0 +1,30 @@
+# ASSET MANIFEST
+# Project: Yashvardhan Borude — Minimalist Editorial GitHub Profile
+# Date: 2026-11-06
+
+ASSETS:
+1. assets/editorial_header.svg
+   - Role: Hero editorial title plate
+   - Dimensions: 960x300
+   - Typography: Instrument Serif (Italic) + Geist / Plus Jakarta Sans
+   - Details: "Curiosity, made tangible." with quiet atmospheric gradient and coordinate telemetry
+
+2. assets/divider_hairline.svg
+   - Role: Editorial top-rule divider
+   - Dimensions: 960x24
+   - Visual: 1px hairline rule with subtle diamond glyph "✦"
+
+3. assets/turboidm.png
+   - Role: Selected Project 01 showcase preview
+   - Dimensions: 1200x750
+   - Source: Direct from yashvardhanborude.tech/projects/turboidm.png
+
+4. assets/inkless.png
+   - Role: Selected Project 02 showcase preview
+   - Dimensions: 1200x750
+   - Source: Direct from yashvardhanborude.tech/projects/inkless.png
+
+5. assets/shivkush.png
+   - Role: Selected Project 03 showcase preview
+   - Dimensions: 1200x750
+   - Source: Direct from yashvardhanborude.tech/projects/shivkush.png
