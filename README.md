@@ -42,18 +42,18 @@
 </p>
 
 <p align="center">
-  <img src="./assets/tech_carousel.svg" alt="Infinite Looping Tech Stack Carousel" width="100%" />
+  <img src="./assets/tech_carousel_v2.svg" alt="Infinite Looping Tech Stack Carousel" width="100%" />
 </p>
 
 <br>
 
 <!-- 5. VERIFIED GITHUB TELEMETRY & LANGUAGE BREAKDOWN (ZERO-DOWNTIME NATIVE SVG) -->
 <p align="center">
-  <img src="./assets/section_telemetry.svg" alt="System Telemetry" />
+  <img src="./assets/section_telemetry_v2.svg" alt="System Telemetry" />
 </p>
 
 <p align="center">
-  <img src="./assets/github_stats.svg" alt="Verified GitHub Telemetry & Language Breakdown" width="100%" />
+  <img src="./assets/github_stats_v2.svg" alt="Verified GitHub Telemetry & Language Breakdown" width="100%" />
 </p>
 
 <p align="center">

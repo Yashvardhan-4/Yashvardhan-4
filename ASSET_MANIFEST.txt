@@ -15,17 +15,17 @@ ASSETS:
    - Role: 3-column architectural capability matrix (Languages, Frontend/3D, Backend/Systems)
    - Dimensions: 920x180
 
-4. assets/tech_carousel.svg
-   - Role: 60fps infinite animated looping carousel of 14 tech stack brand logos
-   - Dimensions: 920x64 (Infinite continuous loop)
+4. assets/tech_carousel_v2.svg
+   - Role: 60fps infinite animated looping carousel of 14 tech stack brand logos (C++, JS, TS, Python, React 19, Next.js 16, Three.js, Tailwind, Postgres, Supabase, MongoDB, Electron, Docker, Figma)
+   - Dimensions: 920x68 (Infinite continuous loop)
 
-5. assets/section_telemetry.svg
+5. assets/section_telemetry_v2.svg
    - Role: System telemetry section divider with pulsing radar ping
    - Dimensions: 920x40
 
-6. assets/github_stats.svg
-   - Role: Self-hosted, zero-downtime GitHub verified metrics & top language breakdown
-   - Dimensions: 920x195
+6. assets/github_stats_v2.svg
+   - Role: Self-hosted, zero-downtime GitHub verified metrics & top language breakdown with clean non-overlapping typography
+   - Dimensions: 920x200
 
 7. assets/section_snake.svg
    - Role: Contribution grid snake divider with dynamic snake element
