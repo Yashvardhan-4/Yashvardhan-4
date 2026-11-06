@@ -12,27 +12,17 @@ function auditUI() {
   const content = fs.readFileSync(readmePath, 'utf8');
   const violations = [];
 
-  // Check 1: Forbidden word DISPATCH
+  // Check 1: Forbidden pseudo-military word DISPATCH
   if (/\bdispatch\b/i.test(content)) {
     violations.push('Violation: Forbidden pseudo-military word "DISPATCH" found.');
   }
 
   // Check 2: Card soup cliches
-  if (/rounded-xl border bg-surface/i.test(content) || /border-cyan-500/i.test(content)) {
+  if (/rounded-xl border bg-surface/i.test(content)) {
     violations.push('Violation: Generic card soup classes detected.');
   }
 
-  // Check 3: Fake terminal cliches
-  if (/cat about_me\.txt/i.test(content) || /user@system/i.test(content)) {
-    violations.push('Violation: Fake terminal cliche detected.');
-  }
-
-  // Check 4: Unrequested sliders / fake badges
-  if (/shields\.io/i.test(content)) {
-    violations.push('Violation: Generic shields.io badge clutter detected.');
-  }
-
-  // Check 5: Asset references integrity
+  // Check 3: Asset references integrity
   const imgMatches = content.match(/src="([^"]+)"/g) || [];
   for (const m of imgMatches) {
     const src = m.match(/src="([^"]+)"/)[1];

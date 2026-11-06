@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 40" width="100%" height="auto">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600;700&amp;display=swap');
+      
+      .title {
+        font-family: 'Fira Code', monospace;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        fill: #8b949e;
+      }
+
+      .pulse {
+        fill: none;
+        stroke: #00E5FF;
+        stroke-width: 1.5;
+        animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+        transform-origin: 16px 20px;
+      }
+      
+      .dot { fill: #00E5FF; }
+
+      @keyframes ping {
+        0% { transform: scale(0.6); opacity: 1; }
+        100% { transform: scale(2.2); opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <rect width="920" height="40" fill="#0d1117" />
+  
+  <line x1="16" y1="20" x2="80" y2="20" stroke="#30363d" stroke-width="1" />
+  <circle class="pulse" cx="16" cy="20" r="6" />
+  <circle class="dot" cx="16" cy="20" r="3" />
+  
+  <text x="95" y="24" class="title">SYSTEM TELEMETRY // REAL-TIME GITHUB ACTIVITY &amp; STATS</text>
+  <line x1="560" y1="20" x2="904" y2="20" stroke="#30363d" stroke-width="1" />
+</svg>

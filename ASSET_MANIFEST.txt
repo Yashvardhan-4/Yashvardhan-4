@@ -1,24 +1,20 @@
 # ASSET MANIFEST
-# Project: Yashvardhan Borude — Iconic GitHub Profile
+# Project: Yashvardhan Borude — Elevated Iconic GitHub Profile
 # Date: 2026-11-06
 
 ASSETS:
 1. assets/terminal.svg
-   - Role: Custom animated terminal about-me card
-   - Dimensions: 850x420
-   - Features: macOS window buttons, cyan prompt, blinking cursor, PCCOE degree details, and active projects
+   - Role: High-density developer console with tabbed interface, line-number gutter, credentials, and directives
+   - Dimensions: 920x440
 
-2. assets/tech_stack_v2.svg
-   - Role: Tech stack architecture section header
-   - Dimensions: 800x50
-   - Features: Animated rotating gear glyph with glowing cyan typography
+2. assets/tech_matrix.svg
+   - Role: 3-column architectural capability matrix (Languages, Frontend/3D, Backend/Systems)
+   - Dimensions: 920x180
 
-3. assets/telemetry_v2.svg
-   - Role: System telemetry section header
-   - Dimensions: 800x50
-   - Features: Animated bouncing audio/data equalizer bars with glowing cyan typography
+3. assets/section_telemetry.svg
+   - Role: System telemetry section divider with pulsing radar ping
+   - Dimensions: 920x40
 
-4. assets/access_logs_v2.svg
-   - Role: System access logs section header
-   - Dimensions: 800x50
-   - Features: Animated pulsing radar beacon with glowing cyan typography
+4. assets/section_snake.svg
+   - Role: Contribution grid snake divider with dynamic snake element
+   - Dimensions: 920x40

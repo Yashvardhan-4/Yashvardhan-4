@@ -1,49 +1,175 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 420" width="100%" height="420">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 440" width="100%" height="auto">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&amp;display=swap');
-      .bg { fill: rgba(10, 10, 15, 0.85); stroke: #00E5FF; stroke-width: 1; rx: 8; ry: 8; }
-      .top-bar { fill: rgba(20, 20, 25, 0.95); }
-      .text { font-family: 'Fira Code', monospace; fill: #c9d1d9; font-size: 15px; }
-      .prompt { fill: #00E5FF; font-weight: bold; }
-      .cmd { fill: #ff5f56; }
-      .highlight { fill: #ffbd2e; font-weight: bold; }
-      .dim { fill: #6e7681; }
-      .cursor { fill: #00E5FF; animation: blink 1s step-end infinite; }
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&amp;display=swap');
+      
+      .bg {
+        fill: #0d1117;
+        stroke: #30363d;
+        stroke-width: 1px;
+        rx: 12px;
+        ry: 12px;
+      }
+      
+      .top-bar {
+        fill: #161b22;
+        stroke: #30363d;
+        stroke-width: 1px;
+      }
+
+      .tab-active {
+        fill: #0d1117;
+        stroke: #30363d;
+        stroke-width: 1px;
+      }
+
+      .tab-text {
+        font-family: 'Fira Code', monospace;
+        font-size: 11px;
+        font-weight: 600;
+        fill: #c9d1d9;
+      }
+
+      .tab-dim {
+        font-family: 'Fira Code', monospace;
+        font-size: 11px;
+        fill: #6e7681;
+      }
+
+      .gutter {
+        font-family: 'Fira Code', monospace;
+        font-size: 13px;
+        fill: #484f58;
+        text-anchor: end;
+      }
+
+      .text {
+        font-family: 'Fira Code', monospace;
+        font-size: 14px;
+        fill: #e6edf3;
+      }
+
+      .prompt { fill: #00E5FF; font-weight: 700; }
+      .path { fill: #38bdf8; }
+      .cmd { fill: #f43f5e; font-weight: 600; }
+      .key { fill: #fbbf24; font-weight: 600; }
+      .val { fill: #a5d6ff; }
+      .comment { fill: #6e7681; font-style: italic; }
+      .green { fill: #3fb950; font-weight: 600; }
+      .purple { fill: #d2a8ff; font-weight: 600; }
+
+      .cursor {
+        fill: #00E5FF;
+        animation: blink 0.8s step-end infinite;
+      }
+
       @keyframes blink { 50% { opacity: 0; } }
-      .typing { overflow: hidden; white-space: nowrap; animation: typing 2s steps(40, end); }
-      @keyframes typing { from { width: 0 } to { width: 100% } }
     </style>
   </defs>
-  <rect class="bg" width="100%" height="100%" />
-  <path class="top-bar" d="M 0 8 Q 0 0 8 0 L 842 0 Q 850 0 850 8 L 850 30 L 0 30 Z" />
+
+  <!-- Terminal Window Base -->
+  <rect x="4" y="4" width="912" height="432" class="bg" />
+
+  <!-- Window Header / Titlebar -->
+  <path d="M 4 16 Q 4 4 16 4 L 904 4 Q 916 4 916 16 L 916 42 L 4 42 Z" class="top-bar" />
   
-  <circle fill="#ff5f56" cx="20" cy="15" r="6" />
-  <circle fill="#ffbd2e" cx="40" cy="15" r="6" />
-  <circle fill="#27c93f" cx="60" cy="15" r="6" />
-  <text class="text dim" x="425" y="20" text-anchor="middle" font-size="12px">bash - yashvardhan@sys - 80x24</text>
-  
-  <g transform="translate(25, 65)">
-    <text class="text" y="0">
-      <tspan class="prompt">yashvardhan@sys</tspan><tspan class="dim">:</tspan><tspan class="cmd">~</tspan><tspan class="dim">$ </tspan><tspan>cat about_me.txt</tspan>
+  <!-- Window Controls -->
+  <circle fill="#ff5f56" cx="24" cy="23" r="5.5" />
+  <circle fill="#ffbd2e" cx="42" cy="23" r="5.5" />
+  <circle fill="#27c93f" cx="60" cy="23" r="5.5" />
+
+  <!-- Terminal Tabs -->
+  <g transform="translate(85, 10)">
+    <rect width="130" height="32" rx="6" ry="6" class="tab-active" />
+    <circle cx="16" cy="16" r="3" fill="#00E5FF" />
+    <text x="28" y="20" class="tab-text">about_me.sh</text>
+  </g>
+  <g transform="translate(225, 10)">
+    <text x="16" y="20" class="tab-dim">directives.env</text>
+  </g>
+  <g transform="translate(340, 10)">
+    <text x="16" y="20" class="tab-dim">benchmarks.json</text>
+  </g>
+
+  <text x="880" y="26" class="tab-dim" text-anchor="end">bash · 80x24</text>
+
+  <!-- Gutter Separator -->
+  <line x1="55" y1="52" x2="55" y2="425" stroke="#21262d" stroke-width="1" />
+
+  <!-- Line Numbers -->
+  <g class="gutter">
+    <text x="44" y="80">01</text>
+    <text x="44" y="105">02</text>
+    <text x="44" y="130">03</text>
+    <text x="44" y="155">04</text>
+    <text x="44" y="180">05</text>
+    <text x="44" y="205">06</text>
+    <text x="44" y="230">07</text>
+    <text x="44" y="255">08</text>
+    <text x="44" y="280">09</text>
+    <text x="44" y="305">10</text>
+    <text x="44" y="330">11</text>
+    <text x="44" y="355">12</text>
+    <text x="44" y="380">13</text>
+    <text x="44" y="405">14</text>
+  </g>
+
+  <!-- Terminal Code Body -->
+  <g class="text" transform="translate(70, 0)">
+    <!-- Line 1: Command Exec -->
+    <text y="80">
+      <tspan class="prompt">yashvardhan@workstation</tspan><tspan class="comment">:</tspan><tspan class="path">~/core</tspan><tspan class="comment">$ </tspan><tspan class="cmd">./init_profile.sh</tspan>
     </text>
-    
-    <text class="text dim" y="35">=================================================================================</text>
-    <text class="text highlight" y="65">  YASHVARDHAN SHASHIKANT BORUDE</text>
-    <text class="text" y="90">  Competitive Programmer <tspan class="dim">|</tspan> Full Stack Developer</text>
-    <text class="text" y="115">  B.Tech Computer Engineering (2028) <tspan class="dim">|</tspan> PCCOE Pune <tspan class="dim">|</tspan> CGPA: 8.86</text>
-    <text class="text dim" y="145">=================================================================================</text>
-    
-    <text class="text prompt" y="190">  &gt; PHILOSOPHY</text>
-    <text class="text" y="215">  Merging absolute technical backend rigor with a sharp eye for</text>
-    <text class="text" y="240">  modern cinematic aesthetics and AI-driven workflow assets.</text>
-    
-    <text class="text prompt" y="285">  &gt; CURRENT DIRECTIVE</text>
-    <text class="text" y="310">  Building TurboIDM (Parallel Accelerator), Inkless, &amp; Shivkush Nursery.</text>
-    <text class="text" y="335">  Expanding algorithmic dominance across CodeChef, Codeforces, &amp; LeetCode.</text>
-    
-    <text class="text" y="385">
-      <tspan class="prompt">yashvardhan@sys</tspan><tspan class="dim">:</tspan><tspan class="cmd">~</tspan><tspan class="dim">$ </tspan><tspan class="cursor">█</tspan>
+
+    <!-- Line 2: Divider comment -->
+    <text y="105" class="comment"># ─── IDENTITY &amp; ACADEMICS ───────────────────────────────────────────────────</text>
+
+    <!-- Line 3: Identity -->
+    <text y="130">
+      <tspan class="key">DEVELOPER</tspan><tspan class="comment"> : </tspan><tspan class="val">"Yashvardhan Shashikant Borude"</tspan>
+    </text>
+
+    <!-- Line 4: Education -->
+    <text y="155">
+      <tspan class="key">EDUCATION</tspan><tspan class="comment"> : </tspan><tspan class="val">"B.Tech Computer Engineering (2028) @ PCCOE Pune"</tspan><tspan class="comment"> // CGPA: 8.86</tspan>
+    </text>
+
+    <!-- Line 5: Focus -->
+    <text y="180">
+      <tspan class="key">SPECIALTY</tspan><tspan class="comment"> : </tspan><tspan class="purple">Full-Stack Systems</tspan><tspan class="comment"> &amp; </tspan><tspan class="purple">Algorithmic Problem Solving</tspan>
+    </text>
+
+    <!-- Line 6: Spacer comment -->
+    <text y="205" class="comment"># ─── CORE DIRECTIVES &amp; BUILDS ───────────────────────────────────────────────</text>
+
+    <!-- Line 7: Projects -->
+    <text y="230">
+      <tspan class="key">ACTIVE_BUILDS</tspan><tspan class="comment"> : [</tspan><tspan class="green">"TurboIDM (8x Parallel Accelerator)"</tspan><tspan class="comment">, </tspan>
+    </text>
+    <text y="255">
+      <tspan class="comment">                   </tspan><tspan class="green">"Inkless (&lt;5ms Offline Journal)"</tspan><tspan class="comment">, </tspan>
+    </text>
+    <text y="280">
+      <tspan class="comment">                   </tspan><tspan class="green">"Shivkush Nursery (3D Agro-Commerce)"</tspan><tspan class="comment">]</tspan>
+    </text>
+
+    <!-- Line 10: Spacer comment -->
+    <text y="305" class="comment"># ─── COMPETITIVE PROGRAMMING PROOF ──────────────────────────────────────────</text>
+
+    <!-- Line 11: Competitive stats -->
+    <text y="330">
+      <tspan class="key">PROBLEM_SOLVED</tspan><tspan class="comment">: </tspan><tspan class="prompt">500+</tspan><tspan class="val"> across LeetCode, Codeforces &amp; CodeChef</tspan>
+    </text>
+
+    <!-- Line 12: Rating -->
+    <text y="355">
+      <tspan class="key">DISTINCTIONS</tspan><tspan class="comment">  : </tspan><tspan class="val">CodeChef 2-Star · NPTEL IIT Madras Elite Certification</tspan>
+    </text>
+
+    <!-- Line 13: Ready prompt -->
+    <text y="380" class="comment"># ────────────────────────────────────────────────────────────────────────────</text>
+    <text y="405">
+      <tspan class="prompt">yashvardhan@workstation</tspan><tspan class="comment">:</tspan><tspan class="path">~/core</tspan><tspan class="comment">$ </tspan><tspan class="cursor">█</tspan>
     </text>
   </g>
 </svg>
