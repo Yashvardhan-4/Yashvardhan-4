@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 64" width="100%" height="64">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&amp;family=Fira+Code:wght@600&amp;display=swap');
+      
+      .pill-card {
+        rx: 8px;
+        ry: 8px;
+        fill: #161b22;
+        stroke: #30363d;
+        stroke-width: 1px;
+      }
+      
+      .pill-text {
+        font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        fill: #e6edf3;
+      }
+
+      .track {
+        animation: scrollCarousel 22s linear infinite;
+      }
+
+      @keyframes scrollCarousel {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-1946px); }
+      }
+
+      .fade-left {
+        fill: url(#fadeL);
+      }
+      .fade-right {
+        fill: url(#fadeR);
+      }
+    </style>
+
+    <linearGradient id="fadeL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="1" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="fadeR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="0" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="1" />
+    </linearGradient>
+
+    <g id="carouselTrack">
+      <g transform="translate(0, 11)">
+        <rect width="125" height="42" class="pill-card" stroke="#00599C" stroke-opacity="0.35" />
+        <circle cx="20" cy="21" r="5" fill="#00599C" />
+        <text x="34" y="26" class="pill-text">C++</text>
+      </g>
+      <g transform="translate(139, 11)">
+        <rect width="125" height="42" class="pill-card" stroke="#F7DF1E" stroke-opacity="0.35" />
+        <circle cx="20" cy="21" r="5" fill="#F7DF1E" />
+        <text x="34" y="26" class="pill-text">JavaScript</text>
+      </g>
+      <g transform="translate(278, 11)">
+        <rect width="125" height="42" class="pill-card" stroke="#3178C6" stroke-opacity="0.35" />
+        <circle cx="20" cy="21" r="5" fill="#3178C6" />
+        <text x="34" y="26" class="pill-text">TypeScript</text>
+      </g>
+      <g transform="translate(417, 11)">
+        <rect width="125" height="42" class="pill-card" stroke="#3776AB" stroke-opacity="0.35" />
+        <circle cx="20" cy="21" r="5" fill="#3776AB" />
+        <text x="34" y="26" class="pill-text">Python</text>
+      </g>
+      <g transform="translate(556, 11)">
+        <rect width="125" height="42" class="pill-card" stroke="#61DAFB" stroke-opacity="0.35" />
+        <circle cx="20" cy="21" r="5" fill="#61DAFB" />
+        <text x="34" y="26" class="pill-text">React 19</text>
+      </g>
+      <g transform="translate(695, 11)">
+        <rect width="125" height="42" class="pill-card" stroke="#FFFFFF" stroke-opacity="0.35" />
+        <circle cx="20" cy="21" r="5" fill="#FFFFFF" />
+        <text x="34" y="26" class="pill-text">Next.js 16</text>
+      </g>
+      <g transform="translate(834, 11)">
+        <rect width="125" height="42" class="pill-card" stroke="#A855F7" stroke-opacity="0.35" />
+        <circle cx="20" cy="21" r="5" fill="#A855F7" />
+        <text x="34" y="26" class="pill-text">Three.js</text>
+      </g>
+      <g transform="translate(973, 11)">
+        <rect width="125" height="42" class="pill-card" stroke="#38BDF8" stroke-opacity="0.35" />
+        <circle cx="20" cy="21" r="5" fill="#38BDF8" />
+        <text x="34" y="26" class="pill-text">Tailwind</text>
+      </g>
+      <g transform="translate(1112, 11)">
+        <rect width="125" height="42" class="pill-card" stroke="#336791" stroke-opacity="0.35" />
+        <circle cx="20" cy="21" r="5" fill="#336791" />
+        <text x="34" y="26" class="pill-text">PostgreSQL</text>
+      </g>
+      <g transform="translate(1251, 11)">
+        <rect width="125" height="42" class="pill-card" stroke="#3ECF8E" stroke-opacity="0.35" />
+        <circle cx="20" cy="21" r="5" fill="#3ECF8E" />
+        <text x="34" y="26" class="pill-text">Supabase</text>
+      </g>
+      <g transform="translate(1390, 11)">
+        <rect width="125" height="42" class="pill-card" stroke="#47A248" stroke-opacity="0.35" />
+        <circle cx="20" cy="21" r="5" fill="#47A248" />
+        <text x="34" y="26" class="pill-text">MongoDB</text>
+      </g>
+      <g transform="translate(1529, 11)">
+        <rect width="125" height="42" class="pill-card" stroke="#47848F" stroke-opacity="0.35" />
+        <circle cx="20" cy="21" r="5" fill="#47848F" />
+        <text x="34" y="26" class="pill-text">Electron</text>
+      </g>
+      <g transform="translate(1668, 11)">
+        <rect width="125" height="42" class="pill-card" stroke="#2496ED" stroke-opacity="0.35" />
+        <circle cx="20" cy="21" r="5" fill="#2496ED" />
+        <text x="34" y="26" class="pill-text">Docker</text>
+      </g>
+      <g transform="translate(1807, 11)">
+        <rect width="125" height="42" class="pill-card" stroke="#F24E1E" stroke-opacity="0.35" />
+        <circle cx="20" cy="21" r="5" fill="#F24E1E" />
+        <text x="34" y="26" class="pill-text">Figma</text>
+      </g>
+    </g>
+  </defs>
+
+  <rect width="920" height="64" fill="#0d1117" />
+
+  <g class="track">
+    <use href="#carouselTrack" x="0" />
+    <use href="#carouselTrack" x="1946" />
+    <use href="#carouselTrack" x="3892" />
+  </g>
+
+  <!-- Left and Right Gradient Fades for Infinite Horizon -->
+  <rect x="0" y="0" width="70" height="64" class="fade-left" pointer-events="none" />
+  <rect x="850" y="0" width="70" height="64" class="fade-right" pointer-events="none" />
+</svg>

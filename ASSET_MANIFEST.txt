@@ -1,20 +1,36 @@
 # ASSET MANIFEST
-# Project: Yashvardhan Borude — Elevated Iconic GitHub Profile
+# Project: Yashvardhan Borude — Studio Ghibli × Iconic GitHub Profile
 # Date: 2026-11-06
 
 ASSETS:
-1. assets/terminal.svg
+1. assets/ghibli_header_banner.jpg
+   - Role: Panoramic Studio Ghibli countryside & summer sky banner
+   - Dimensions: 920x280
+
+2. assets/terminal.svg
    - Role: High-density developer console with tabbed interface, line-number gutter, credentials, and directives
    - Dimensions: 920x440
 
-2. assets/tech_matrix.svg
+3. assets/tech_matrix.svg
    - Role: 3-column architectural capability matrix (Languages, Frontend/3D, Backend/Systems)
    - Dimensions: 920x180
 
-3. assets/section_telemetry.svg
+4. assets/tech_carousel.svg
+   - Role: 60fps infinite animated looping carousel of 14 tech stack brand logos
+   - Dimensions: 920x64 (Infinite continuous loop)
+
+5. assets/section_telemetry.svg
    - Role: System telemetry section divider with pulsing radar ping
    - Dimensions: 920x40
 
-4. assets/section_snake.svg
+6. assets/github_stats.svg
+   - Role: Self-hosted, zero-downtime GitHub verified metrics & top language breakdown
+   - Dimensions: 920x195
+
+7. assets/section_snake.svg
    - Role: Contribution grid snake divider with dynamic snake element
    - Dimensions: 920x40
+
+8. assets/ghibli_lake.jpg
+   - Role: Studio Ghibli peaceful lakeside meadow artwork
+   - Dimensions: 500x269
