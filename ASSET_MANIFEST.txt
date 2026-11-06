@@ -1,30 +1,38 @@
 # ASSET MANIFEST
-# Project: Yashvardhan Borude — Minimalist Editorial GitHub Profile
+# Project: Yashvardhan Borude — Minimalist Animated Editorial GitHub Profile
 # Date: 2026-11-06
 
 ASSETS:
 1. assets/editorial_header.svg
-   - Role: Hero editorial title plate
-   - Dimensions: 960x300
-   - Typography: Instrument Serif (Italic) + Geist / Plus Jakarta Sans
-   - Details: "Curiosity, made tangible." with quiet atmospheric gradient and coordinate telemetry
+   - Role: Hero editorial title plate with typographic shimmer & orbit glyph
+   - Dimensions: 960x340
+   - Animation: Shimmering text gradient + pulsing beacon + orbiting diamond
 
-2. assets/divider_hairline.svg
-   - Role: Editorial top-rule divider
-   - Dimensions: 960x24
-   - Visual: 1px hairline rule with subtle diamond glyph "✦"
+2. assets/tech_marquee.svg
+   - Role: Infinite kinetic tech stack ticker
+   - Dimensions: 960x90
+   - Animation: 60fps infinite marquee scroll with brand-color illuminated pills
 
-3. assets/turboidm.png
-   - Role: Selected Project 01 showcase preview
-   - Dimensions: 1200x750
-   - Source: Direct from yashvardhanborude.tech/projects/turboidm.png
+3. assets/benchmarks_animated.svg
+   - Role: Dynamic benchmark telemetry grid
+   - Dimensions: 960x140
+   - Animation: Pulsing gradient borders and live benchmark pills
 
-4. assets/inkless.png
-   - Role: Selected Project 02 showcase preview
-   - Dimensions: 1200x750
-   - Source: Direct from yashvardhanborude.tech/projects/inkless.png
+4. assets/turboidm_animated.webp
+   - Role: TurboIDM live UI simulator
+   - Dimensions: 880x420, 60fps true-color WebP
+   - Animation: 32 parallel chunk streams filling concurrently + live 138 MB/s velocity meter
 
-5. assets/shivkush.png
-   - Role: Selected Project 03 showcase preview
-   - Dimensions: 1200x750
-   - Source: Direct from yashvardhanborude.tech/projects/shivkush.png
+5. assets/inkless_animated.webp
+   - Role: Inkless distraction-free journal simulator
+   - Dimensions: 880x420, 60fps true-color WebP
+   - Animation: Real-time typewriter text typing + pulsing cursor + instant local save validation
+
+6. assets/shivkush_animated.webp
+   - Role: Shivkush Nursery 3D canopy viewer simulator
+   - Dimensions: 880x420, 60fps true-color WebP
+   - Animation: 360° rotating botanical phyllotaxis wireframe mesh + Draco 3D compression telemetry
+
+7. assets/divider_hairline.svg
+   - Role: Minimalist editorial top-rule divider
+   - Dimensions: 960x30

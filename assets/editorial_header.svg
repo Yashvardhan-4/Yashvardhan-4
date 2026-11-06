@@ -1,94 +1,128 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" width="100%" height="auto">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap');
       
       .meta {
         font-family: 'JetBrains Mono', monospace;
         font-size: 11px;
         letter-spacing: 0.12em;
         text-transform: uppercase;
-        fill: #7d8590;
+        fill: #8b949e;
       }
       
       .hero-title {
         font-family: 'Instrument Serif', Georgia, serif;
         font-style: italic;
-        font-size: 68px;
+        font-size: 72px;
         font-weight: 400;
         letter-spacing: -0.02em;
-        fill: #f0f6fc;
+        fill: url(#textShimmer);
       }
       
       .author {
         font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
         font-size: 14px;
-        font-weight: 500;
-        letter-spacing: 0.08em;
+        font-weight: 600;
+        letter-spacing: 0.1em;
         text-transform: uppercase;
         fill: #c9d1d9;
       }
       
       .tagline {
         font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
-        font-size: 14px;
+        font-size: 15px;
         font-weight: 400;
         line-height: 1.6;
         fill: #8b949e;
       }
 
       .status-dot {
-        fill: #3fb950;
-        animation: pulse 3s ease-in-out infinite;
+        fill: #22c55e;
+        animation: beacon 2.5s ease-in-out infinite;
       }
 
-      @keyframes pulse {
-        0%, 100% { opacity: 0.4; }
+      .beacon-ring {
+        stroke: #22c55e;
+        fill: none;
+        animation: ringSpread 2.5s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+      }
+
+      @keyframes beacon {
+        0%, 100% { opacity: 0.6; }
         50% { opacity: 1; }
       }
 
-      .ambient-glow {
-        animation: breath 8s ease-in-out infinite;
+      @keyframes ringSpread {
+        0% { r: 3.5; opacity: 0.8; stroke-width: 1.5; }
+        100% { r: 14; opacity: 0; stroke-width: 0.5; }
       }
 
-      @keyframes breath {
-        0%, 100% { opacity: 0.12; transform: scale(0.96); }
-        50% { opacity: 0.22; transform: scale(1.04); }
+      .shimmer-grad {
+        animation: sweep 6s ease-in-out infinite;
+      }
+
+      @keyframes sweep {
+        0% { x1: 0%; x2: 100%; }
+        50% { x1: 100%; x2: 200%; }
+        100% { x1: 0%; x2: 100%; }
+      }
+
+      .orbit-glyph {
+        animation: orbitTravel 14s linear infinite;
+      }
+
+      @keyframes orbitTravel {
+        0% { transform: translateX(0); }
+        50% { transform: translateX(840px); }
+        100% { transform: translateX(0); }
       }
     </style>
     
-    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
-      <stop offset="40%" stop-color="#6366f1" stop-opacity="0.12" />
+    <linearGradient id="textShimmer" class="shimmer-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f0f6fc" />
+      <stop offset="30%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="70%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f0f6fc" />
+    </linearGradient>
+
+    <radialGradient id="heroAtmosphere" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18" />
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.08" />
       <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
     </radialGradient>
   </defs>
 
-  <!-- Canvas Background matching GitHub Dark #0d1117 -->
-  <rect width="960" height="320" fill="#0d1117" />
+  <!-- Background -->
+  <rect width="960" height="340" fill="#0d1117" />
 
-  <!-- Subtle Ambient Glow -->
-  <ellipse class="ambient-glow" cx="480" cy="160" rx="360" ry="120" fill="url(#glowGrad)" />
+  <!-- Atmospheric Glow behind typography -->
+  <ellipse cx="480" cy="170" rx="420" ry="140" fill="url(#heroAtmosphere)" />
 
   <!-- Top Metadata Rail -->
   <text x="40" y="44" class="meta">YASHVARDHAN BORUDE // SOFTWARE &amp; SYSTEMS</text>
-  <circle cx="810" cy="40" r="3.5" class="status-dot" />
-  <text x="822" y="44" class="meta">PUNE, INDIA</text>
+  
+  <circle cx="780" cy="40" class="beacon-ring" />
+  <circle cx="780" cy="40" r="3.5" class="status-dot" />
+  <text x="795" y="44" class="meta">OPEN FOR COLLABORATION</text>
 
-  <!-- Editorial Top Hairline -->
+  <!-- Top Hairline -->
   <line x1="40" y1="62" x2="920" y2="62" stroke="#30363d" stroke-width="1" stroke-opacity="0.6" />
 
-  <!-- Display Hero -->
-  <text x="40" y="145" class="hero-title">Curiosity, made tangible.</text>
+  <!-- Display Hero Title -->
+  <text x="40" y="150" class="hero-title">Curiosity, made tangible.</text>
 
-  <!-- Author Moniker -->
-  <text x="42" y="195" class="author">COMPUTER ENGINEERING · BUILDER · OPEN FOR COLLABORATION</text>
+  <!-- Moniker -->
+  <text x="42" y="205" class="author">COMPUTER ENGINEERING · CREATIVE TECHNOLOGIST · BUILDER</text>
 
   <!-- Narrative Tagline -->
-  <text x="42" y="235" class="tagline">I explore technology, experiment with ideas, and build software</text>
-  <text x="42" y="258" class="tagline">that turns interesting problems into useful experiences.</text>
+  <text x="42" y="244" class="tagline">I explore technology, experiment with ideas, and build software</text>
+  <text x="42" y="268" class="tagline">that turns interesting problems into useful experiences.</text>
 
-  <!-- Bottom Hairline with subtle diamond accent -->
-  <line x1="40" y1="300" x2="920" y2="300" stroke="#30363d" stroke-width="1" stroke-opacity="0.6" />
-  <text x="477" y="304" font-family="'JetBrains Mono', monospace" font-size="11" fill="#8b949e">✦</text>
+  <!-- Bottom Hairline with orbiting diamond -->
+  <line x1="40" y1="310" x2="920" y2="310" stroke="#30363d" stroke-width="1" stroke-opacity="0.6" />
+  <g class="orbit-glyph">
+    <text x="40" y="314" font-family="'JetBrains Mono', monospace" font-size="11" fill="#38bdf8">✦</text>
+  </g>
 </svg>

@@ -6,7 +6,23 @@
 
 <br>
 
+<div align="center">
+
+<img src="./assets/tech_marquee.svg" alt="Living Tech Stack Marquee" width="100%" />
+
+</div>
+
+<br>
+
 > *I explore technology, experiment with ideas, and build software that turns interesting problems into useful experiences. Based in Pune, India, focusing on software & systems with an emphasis on speed, clean interfaces, and solving real user problems.*
+
+<br>
+
+<div align="center">
+
+<img src="./assets/benchmarks_animated.svg" alt="Verified Performance Benchmarks" width="100%" />
+
+</div>
 
 <br>
 
@@ -29,7 +45,7 @@ A collection of applications and tools I've designed and built — focusing on s
 
 <div align="center">
   <a href="https://turbo-idm.vercel.app/" target="_blank">
-    <img src="./assets/turboidm.png" alt="TurboIDM Download Accelerator preview" width="100%" />
+    <img src="./assets/turboidm_animated.webp" alt="TurboIDM Parallel Download Simulator" width="100%" />
   </a>
 </div>
 
@@ -37,11 +53,19 @@ A collection of applications and tools I've designed and built — focusing on s
 
 A fast download manager and browser extension that speeds up large downloads up to 8x by downloading file parts simultaneously and saving directly to disk without slow merge times.
 
+<details>
+<summary><b>▶ INSPECT ARCHITECTURE & BENCHMARKS</b></summary>
+<br>
+
 ```
-HIGHLIGHTS      Up to 8x Faster Downloads · Instant File Completion · 32 Parallel Streams
-STACK           Node.js · Electron · React 19 · Chrome MV3 Extension · TypeScript
-LINKS           https://turbo-idm.vercel.app · https://github.com/Yashvardhan-4
+BENCHMARKS      Up to 8x Faster Downloads · Instant File Completion · 32 Parallel Streams
+ARCHITECTURE    Node.js · Electron · React 19 · Chrome MV3 Extension · TypeScript
+KEY MECHANISM   Direct-to-disk chunk streaming with zero-merge disk writes
+DEPLOYMENT      https://turbo-idm.vercel.app
+REPOSITORY      https://github.com/Yashvardhan-4
 ```
+
+</details>
 
 <br>
 
@@ -58,7 +82,7 @@ LINKS           https://turbo-idm.vercel.app · https://github.com/Yashvardhan-4
 
 <div align="center">
   <a href="https://inkless-ashen.vercel.app/" target="_blank">
-    <img src="./assets/inkless.png" alt="Inkless Digital Diary preview" width="100%" />
+    <img src="./assets/inkless_animated.webp" alt="Inkless Distraction-Free Writing Simulator" width="100%" />
   </a>
 </div>
 
@@ -66,11 +90,19 @@ LINKS           https://turbo-idm.vercel.app · https://github.com/Yashvardhan-4
 
 A fast, distraction-free writing app that saves your notes instantly to your device so you never lose your work, even when you're completely offline.
 
+<details>
+<summary><b>▶ INSPECT ARCHITECTURE & BENCHMARKS</b></summary>
+<br>
+
 ```
-HIGHLIGHTS      < 5ms Instant Local Save · Zero Data Loss · 120 FPS Fluid Visuals
-STACK           Next.js · React · IndexedDB · Supabase · Three.js · GLSL Shaders
-LINKS           https://inkless-ashen.vercel.app · https://github.com/Yashvardhan-4/Inkless
+BENCHMARKS      < 5ms Instant Local Save · Zero Data Loss · 120 FPS Fluid Visuals
+ARCHITECTURE    Next.js · React · IndexedDB · Supabase · Three.js · GLSL Shaders
+KEY MECHANISM   Local-first optimistic state committed atomically to IndexedDB
+DEPLOYMENT      https://inkless-ashen.vercel.app
+REPOSITORY      https://github.com/Yashvardhan-4/Inkless
 ```
+
+</details>
 
 <br>
 
@@ -87,7 +119,7 @@ LINKS           https://inkless-ashen.vercel.app · https://github.com/Yashvardh
 
 <div align="center">
   <a href="https://shivkush-hi-tech-nursery.vercel.app/" target="_blank">
-    <img src="./assets/shivkush.png" alt="Shivkush Nursery website preview" width="100%" />
+    <img src="./assets/shivkush_animated.webp" alt="Shivkush Nursery 3D Canopy Simulator" width="100%" />
   </a>
 </div>
 
@@ -95,11 +127,19 @@ LINKS           https://inkless-ashen.vercel.app · https://github.com/Yashvardh
 
 A bilingual online plant store and inventory management system built for a commercial agriculture nursery, designed to load fast even on slow mobile networks.
 
+<details>
+<summary><b>▶ INSPECT ARCHITECTURE & BENCHMARKS</b></summary>
+<br>
+
 ```
-HIGHLIGHTS      Fast on 2G/3G Networks · 84% Smaller 3D Models · Zero Stock Conflicts
-STACK           Next.js · Three.js · Google Draco · PostgreSQL · Tailwind CSS
-LINKS           https://shivkush-hi-tech-nursery.vercel.app · https://github.com/Yashvardhan-4
+BENCHMARKS      Fast on 2G/3G Networks · 84% Smaller 3D Models · Zero Stock Conflicts
+ARCHITECTURE    Next.js · Three.js · Google Draco Compression · PostgreSQL · Tailwind CSS
+KEY MECHANISM   Multi-tenant inventory management backed by Supabase Row Level Security
+DEPLOYMENT      https://shivkush-hi-tech-nursery.vercel.app
+REPOSITORY      https://github.com/Yashvardhan-4
 ```
+
+</details>
 
 <br>
 
